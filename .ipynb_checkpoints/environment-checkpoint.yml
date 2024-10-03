@@ -1,0 +1,5 @@
+name: affine-project-env
+channels:
+  - conda-forge
+  - defaults
+prefix: /opt/miniconda3/envs/affine-project-env

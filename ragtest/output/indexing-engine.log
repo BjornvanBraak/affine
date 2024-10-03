@@ -1,0 +1,509 @@
+11:41:29,786 graphrag.index.cli INFO Logging enabled at /home/jovyan/affine/ragtest/output/indexing-engine.log
+11:41:29,790 graphrag.index.cli INFO Starting pipeline run for: 20241003-114129, dryrun=False
+11:41:29,791 graphrag.index.cli INFO Using default configuration: {
+    "llm": {
+        "api_key": "==== REDACTED ====",
+        "type": "azure_openai_chat",
+        "model": "gpt-4",
+        "max_tokens": 4000,
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "n": 1,
+        "request_timeout": 180.0,
+        "api_base": "https://graphrag-affine.openai.azure.com",
+        "api_version": "2024-02-15-preview",
+        "proxy": null,
+        "cognitive_services_endpoint": null,
+        "deployment_name": "gpt-4-turbo-2024-04-09",
+        "model_supports_json": true,
+        "tokens_per_minute": 0,
+        "requests_per_minute": 0,
+        "max_retries": 10,
+        "max_retry_wait": 10.0,
+        "sleep_on_rate_limit_recommendation": true,
+        "concurrent_requests": 25
+    },
+    "parallelization": {
+        "stagger": 0.3,
+        "num_threads": 50
+    },
+    "async_mode": "threaded",
+    "root_dir": "/home/jovyan/affine/ragtest",
+    "reporting": {
+        "type": "file",
+        "base_dir": "/home/jovyan/affine/ragtest/output",
+        "storage_account_blob_url": null
+    },
+    "storage": {
+        "type": "file",
+        "base_dir": "/home/jovyan/affine/ragtest/output",
+        "storage_account_blob_url": null
+    },
+    "cache": {
+        "type": "file",
+        "base_dir": "cache",
+        "storage_account_blob_url": null
+    },
+    "input": {
+        "type": "file",
+        "file_type": "text",
+        "base_dir": "input",
+        "storage_account_blob_url": null,
+        "encoding": "utf-8",
+        "file_pattern": ".*\\.txt$",
+        "file_filter": null,
+        "source_column": null,
+        "timestamp_column": null,
+        "timestamp_format": null,
+        "text_column": "text",
+        "title_column": null,
+        "document_attribute_columns": []
+    },
+    "embed_graph": {
+        "enabled": false,
+        "num_walks": 10,
+        "walk_length": 40,
+        "window_size": 2,
+        "iterations": 3,
+        "random_seed": 597832,
+        "strategy": null
+    },
+    "embeddings": {
+        "llm": {
+            "api_key": "==== REDACTED ====",
+            "type": "azure_openai_embedding",
+            "model": "text-embedding-ada-002",
+            "max_tokens": 4000,
+            "temperature": 0,
+            "top_p": 1,
+            "n": 1,
+            "request_timeout": 180.0,
+            "api_base": "https://graphrag-affine.openai.azure.com",
+            "api_version": "2024-02-15-preview",
+            "proxy": null,
+            "cognitive_services_endpoint": null,
+            "deployment_name": "text-embedding-ada-002",
+            "model_supports_json": null,
+            "tokens_per_minute": 0,
+            "requests_per_minute": 0,
+            "max_retries": 10,
+            "max_retry_wait": 10.0,
+            "sleep_on_rate_limit_recommendation": true,
+            "concurrent_requests": 25
+        },
+        "parallelization": {
+            "stagger": 0.3,
+            "num_threads": 50
+        },
+        "async_mode": "threaded",
+        "batch_size": 16,
+        "batch_max_tokens": 8191,
+        "target": "required",
+        "skip": [],
+        "vector_store": null,
+        "strategy": null
+    },
+    "chunks": {
+        "size": 1200,
+        "overlap": 100,
+        "group_by_columns": [
+            "id"
+        ],
+        "strategy": null,
+        "encoding_model": null
+    },
+    "snapshots": {
+        "graphml": false,
+        "raw_entities": false,
+        "top_level_nodes": false
+    },
+    "entity_extraction": {
+        "llm": {
+            "api_key": "==== REDACTED ====",
+            "type": "azure_openai_chat",
+            "model": "gpt-4",
+            "max_tokens": 4000,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "n": 1,
+            "request_timeout": 180.0,
+            "api_base": "https://graphrag-affine.openai.azure.com",
+            "api_version": "2024-02-15-preview",
+            "proxy": null,
+            "cognitive_services_endpoint": null,
+            "deployment_name": "gpt-4-turbo-2024-04-09",
+            "model_supports_json": true,
+            "tokens_per_minute": 0,
+            "requests_per_minute": 0,
+            "max_retries": 10,
+            "max_retry_wait": 10.0,
+            "sleep_on_rate_limit_recommendation": true,
+            "concurrent_requests": 25
+        },
+        "parallelization": {
+            "stagger": 0.3,
+            "num_threads": 50
+        },
+        "async_mode": "threaded",
+        "prompt": "prompts/entity_extraction.txt",
+        "entity_types": [
+            "organization",
+            "person",
+            "geo",
+            "event"
+        ],
+        "max_gleanings": 1,
+        "strategy": null,
+        "encoding_model": null
+    },
+    "summarize_descriptions": {
+        "llm": {
+            "api_key": "==== REDACTED ====",
+            "type": "azure_openai_chat",
+            "model": "gpt-4",
+            "max_tokens": 4000,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "n": 1,
+            "request_timeout": 180.0,
+            "api_base": "https://graphrag-affine.openai.azure.com",
+            "api_version": "2024-02-15-preview",
+            "proxy": null,
+            "cognitive_services_endpoint": null,
+            "deployment_name": "gpt-4-turbo-2024-04-09",
+            "model_supports_json": true,
+            "tokens_per_minute": 0,
+            "requests_per_minute": 0,
+            "max_retries": 10,
+            "max_retry_wait": 10.0,
+            "sleep_on_rate_limit_recommendation": true,
+            "concurrent_requests": 25
+        },
+        "parallelization": {
+            "stagger": 0.3,
+            "num_threads": 50
+        },
+        "async_mode": "threaded",
+        "prompt": "prompts/summarize_descriptions.txt",
+        "max_length": 500,
+        "strategy": null
+    },
+    "community_reports": {
+        "llm": {
+            "api_key": "==== REDACTED ====",
+            "type": "azure_openai_chat",
+            "model": "gpt-4",
+            "max_tokens": 4000,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "n": 1,
+            "request_timeout": 180.0,
+            "api_base": "https://graphrag-affine.openai.azure.com",
+            "api_version": "2024-02-15-preview",
+            "proxy": null,
+            "cognitive_services_endpoint": null,
+            "deployment_name": "gpt-4-turbo-2024-04-09",
+            "model_supports_json": true,
+            "tokens_per_minute": 0,
+            "requests_per_minute": 0,
+            "max_retries": 10,
+            "max_retry_wait": 10.0,
+            "sleep_on_rate_limit_recommendation": true,
+            "concurrent_requests": 25
+        },
+        "parallelization": {
+            "stagger": 0.3,
+            "num_threads": 50
+        },
+        "async_mode": "threaded",
+        "prompt": "prompts/community_report.txt",
+        "max_length": 2000,
+        "max_input_length": 8000,
+        "strategy": null
+    },
+    "claim_extraction": {
+        "llm": {
+            "api_key": "==== REDACTED ====",
+            "type": "azure_openai_chat",
+            "model": "gpt-4",
+            "max_tokens": 4000,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "n": 1,
+            "request_timeout": 180.0,
+            "api_base": "https://graphrag-affine.openai.azure.com",
+            "api_version": "2024-02-15-preview",
+            "proxy": null,
+            "cognitive_services_endpoint": null,
+            "deployment_name": "gpt-4-turbo-2024-04-09",
+            "model_supports_json": true,
+            "tokens_per_minute": 0,
+            "requests_per_minute": 0,
+            "max_retries": 10,
+            "max_retry_wait": 10.0,
+            "sleep_on_rate_limit_recommendation": true,
+            "concurrent_requests": 25
+        },
+        "parallelization": {
+            "stagger": 0.3,
+            "num_threads": 50
+        },
+        "async_mode": "threaded",
+        "enabled": false,
+        "prompt": "prompts/claim_extraction.txt",
+        "description": "Any claims or facts that could be relevant to information discovery.",
+        "max_gleanings": 1,
+        "strategy": null,
+        "encoding_model": null
+    },
+    "cluster_graph": {
+        "max_cluster_size": 10,
+        "strategy": null
+    },
+    "umap": {
+        "enabled": false
+    },
+    "local_search": {
+        "text_unit_prop": 0.5,
+        "community_prop": 0.1,
+        "conversation_history_max_turns": 5,
+        "top_k_entities": 10,
+        "top_k_relationships": 10,
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "n": 1,
+        "max_tokens": 12000,
+        "llm_max_tokens": 2000
+    },
+    "global_search": {
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "n": 1,
+        "max_tokens": 12000,
+        "data_max_tokens": 12000,
+        "map_max_tokens": 1000,
+        "reduce_max_tokens": 2000,
+        "concurrency": 32
+    },
+    "encoding_model": "cl100k_base",
+    "skip_workflows": []
+}
+11:41:29,829 graphrag.index.create_pipeline_config INFO skipping workflows 
+11:41:29,829 graphrag.index.run.run INFO Running pipeline
+11:41:29,829 graphrag.index.storage.file_pipeline_storage INFO Creating file storage at /home/jovyan/affine/ragtest/output
+11:41:29,852 graphrag.index.input.load_input INFO loading input from root_dir=input
+11:41:29,853 graphrag.index.input.load_input INFO using file storage for input
+11:41:29,858 graphrag.index.storage.file_pipeline_storage INFO search /home/jovyan/affine/ragtest/input for files matching .*\.txt$
+11:41:29,862 graphrag.index.input.text INFO found text files from input, found [('book.txt', {}), ('.ipynb_checkpoints/book-checkpoint.txt', {})]
+11:41:29,882 graphrag.index.input.text INFO Found 2 files, loading 2
+11:41:29,886 graphrag.index.workflows.load INFO Workflow Run Order: ['create_base_text_units', 'create_base_extracted_entities', 'create_summarized_entities', 'create_base_entity_graph', 'create_final_entities', 'create_final_nodes', 'create_final_communities', 'create_final_relationships', 'create_final_text_units', 'create_final_community_reports', 'create_base_documents', 'create_final_documents']
+11:41:29,886 graphrag.index.run.run INFO Final # of rows loaded: 2
+11:41:30,40 graphrag.index.run.workflow INFO dependencies for create_base_text_units: []
+11:41:30,44 datashaper.workflow.workflow INFO executing verb orderby
+11:41:30,47 datashaper.workflow.workflow INFO executing verb zip
+11:41:30,50 datashaper.workflow.workflow INFO executing verb aggregate_override
+11:41:30,55 datashaper.workflow.workflow INFO executing verb chunk
+11:41:32,55 datashaper.workflow.workflow INFO executing verb select
+11:41:32,59 datashaper.workflow.workflow INFO executing verb unroll
+11:41:32,64 datashaper.workflow.workflow INFO executing verb rename
+11:41:32,68 datashaper.workflow.workflow INFO executing verb genid
+11:41:32,77 datashaper.workflow.workflow INFO executing verb unzip
+11:41:32,82 datashaper.workflow.workflow INFO executing verb copy
+11:41:32,86 datashaper.workflow.workflow INFO executing verb filter
+11:41:32,99 graphrag.index.emit.parquet_table_emitter INFO emitting parquet table create_base_text_units.parquet
+11:41:32,290 graphrag.index.run.workflow INFO dependencies for create_base_extracted_entities: ['create_base_text_units']
+11:41:32,291 graphrag.utils.storage INFO read table from storage: create_base_text_units.parquet
+11:41:32,324 datashaper.workflow.workflow INFO executing verb entity_extract
+11:41:32,336 graphrag.llm.openai.create_openai_client INFO Creating Azure OpenAI client api_base=https://graphrag-affine.openai.azure.com, deployment_name=gpt-4-turbo-2024-04-09
+11:41:32,344 graphrag.index.llm.load_llm INFO create TPM/RPM limiter for gpt-4: TPM=0, RPM=0
+11:41:32,344 graphrag.index.llm.load_llm INFO create concurrency limiter for gpt-4: 25
+11:41:32,739 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,741 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:41:32,742 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,742 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,743 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,744 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:41:32,744 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:41:32,744 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:41:32,746 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,746 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,747 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:41:32,747 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:41:32,748 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,748 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,749 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:32,749 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:32,750 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,750 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,750 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:32,751 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:41:32,751 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,752 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,752 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,763 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:41:32,769 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:32,774 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:41:32,774 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,775 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,776 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:32,777 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:32,777 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,778 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,779 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,779 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,780 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,781 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,782 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:32,783 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:41:32,784 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:32,785 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:32,786 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:32,787 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:32,788 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,788 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,789 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,790 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:32,791 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:32,791 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:32,792 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:32,793 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:43,822 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:43,824 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:41:43,919 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:43,920 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:43,943 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:43,944 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:44,10 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:44,12 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:44,222 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:44,232 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:44,250 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:44,251 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:44,287 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:44,288 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:44,311 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:44,312 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:44,346 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:44,347 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:44,539 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:44,540 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:44,570 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:44,571 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:44,574 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:44,575 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:44,592 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:44,593 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:44,688 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:44,689 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:44,690 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:44,691 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:56,627 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:56,629 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:41:56,669 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:56,670 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:41:56,676 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:56,677 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:41:56,705 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:56,706 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:56,726 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:56,726 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:56,760 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:56,770 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:56,778 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:56,780 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:56,851 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:56,852 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:56,881 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:56,882 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:57,21 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:57,22 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:57,235 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:57,237 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:57,244 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:57,245 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:57,325 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:57,326 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:41:57,386 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:41:57,387 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:10,870 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:10,871 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:42:10,931 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:10,932 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:10,997 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:10,998 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:11,348 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:11,349 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:11,418 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:11,419 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:11,497 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:11,499 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:11,665 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:11,666 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:11,695 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:11,696 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:11,742 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:11,744 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:11,853 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:11,854 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:12,5 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:12,6 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 9 seconds. Follow recommendation? True
+11:42:29,282 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:29,284 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:42:29,581 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:29,583 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:29,653 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:29,655 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:29,975 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:29,975 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:30,2 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:30,3 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:30,22 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:30,23 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:30,40 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:30,41 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:30,101 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:30,102 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:30,254 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:30,256 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:30,625 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:30,626 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 9 seconds. Follow recommendation? True
+11:42:49,683 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:49,684 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:42:49,686 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:49,687 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:42:49,715 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:49,716 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:42:50,1 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:50,2 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:50,22 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:50,23 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:50,53 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:50,54 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:50,62 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:50,64 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:50,122 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:50,123 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:42:50,282 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:42:50,283 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:43:10,90 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:43:10,91 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 7/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:43:10,100 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:43:10,101 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 7/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:43:10,123 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:43:10,124 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 7/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:43:10,139 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:43:10,141 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 7/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:43:10,154 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:43:10,156 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 7/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:43:10,304 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:43:10,305 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 7/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:43:30,215 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:43:30,215 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 8/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:43:30,216 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:43:30,217 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 8/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:43:30,223 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:43:30,224 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 8/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+11:43:30,325 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:43:30,326 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 8/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
+11:43:50,402 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
+11:43:50,403 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 9/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
