@@ -1,18 +1,19 @@
+
 encoding_model: cl100k_base
 skip_workflows: []
 llm:
   api_key: ${GRAPHRAG_API_KEY}
   type: azure_openai_chat # or azure_openai_chat
-  model: 'gpt-4'
+  model: gpt-4o-mini
   model_supports_json: true # recommended if this is available for your model.
   # max_tokens: 4000
   # request_timeout: 180.0
-  api_base: 'https://graphrag-affine.openai.azure.com'
-  api_version: '2024-02-15-preview'
+  api_base: https://affine-project-us-east.openai.azure.com
+  api_version: '2023-03-15-preview'
   # organization: <organization_id>
-  deployment_name: 'gpt-4-turbo-2024-04-09'
-  # tokens_per_minute: 150_000 # set a leaky bucket throttle
-  # requests_per_minute: 10_000 # set a leaky bucket throttle
+  deployment_name: gpt-4o-mini
+  tokens_per_minute: 10_000 # set a leaky bucket throttle
+  requests_per_minute: 50 # set a leaky bucket throttle
   # max_retries: 10
   # max_retry_wait: 10.0
   # sleep_on_rate_limit_recommendation: true # whether to sleep when azure suggests wait-times
@@ -36,13 +37,13 @@ embeddings:
   llm:
     api_key: ${GRAPHRAG_API_KEY}
     type: azure_openai_embedding # or azure_openai_embedding
-    model: 'text-embedding-ada-002'
-    api_base: 'https://graphrag-affine.openai.azure.com'
-    api_version: '2024-02-15-preview'
+    model: text-embedding-3-small
+    api_base: https://affine-project-us-east.openai.azure.com
+    api_version: '2023-05-15'
     # organization: <organization_id>
-    deployment_name: 'text-embedding-ada-002'
-    # tokens_per_minute: 150_000 # set a leaky bucket throttle
-    # requests_per_minute: 10_000 # set a leaky bucket throttle
+    deployment_name: text-embedding-3-small
+    tokens_per_minute: 10_000 # set a leaky bucket throttle
+    requests_per_minute: 50 # set a leaky bucket throttle
     # max_retries: 10
     # max_retry_wait: 10.0
     # sleep_on_rate_limit_recommendation: true # whether to sleep when azure suggests wait-times
@@ -50,7 +51,7 @@ embeddings:
 
 chunks:
   size: 1200
-  overlap: 100
+  overlap: 50
   group_by_columns: [id] # by default, we don't allow chunks to cross documents
 
 input:

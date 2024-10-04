@@ -1,23 +1,23 @@
-11:41:29,786 graphrag.index.cli INFO Logging enabled at /home/jovyan/affine/ragtest/output/indexing-engine.log
-11:41:29,790 graphrag.index.cli INFO Starting pipeline run for: 20241003-114129, dryrun=False
-11:41:29,791 graphrag.index.cli INFO Using default configuration: {
+20:08:15,68 graphrag.index.cli INFO Logging enabled at C:\Users\bjorn\OneDrive - University of Twente\School\Affine\affine-graphrag-testing\ragtest\output\indexing-engine.log
+20:08:15,71 graphrag.index.cli INFO Starting pipeline run for: 20241003-200815, dryrun=False
+20:08:15,72 graphrag.index.cli INFO Using default configuration: {
     "llm": {
         "api_key": "==== REDACTED ====",
         "type": "azure_openai_chat",
-        "model": "gpt-4",
+        "model": "gpt-4o-mini",
         "max_tokens": 4000,
         "temperature": 0.0,
         "top_p": 1.0,
         "n": 1,
         "request_timeout": 180.0,
-        "api_base": "https://graphrag-affine.openai.azure.com",
-        "api_version": "2024-02-15-preview",
+        "api_base": "https://affine-project-us-east.openai.azure.com",
+        "api_version": "2023-03-15-preview",
         "proxy": null,
         "cognitive_services_endpoint": null,
-        "deployment_name": "gpt-4-turbo-2024-04-09",
+        "deployment_name": "gpt-4o-mini",
         "model_supports_json": true,
-        "tokens_per_minute": 0,
-        "requests_per_minute": 0,
+        "tokens_per_minute": 10000,
+        "requests_per_minute": 100,
         "max_retries": 10,
         "max_retry_wait": 10.0,
         "sleep_on_rate_limit_recommendation": true,
@@ -28,15 +28,15 @@
         "num_threads": 50
     },
     "async_mode": "threaded",
-    "root_dir": "/home/jovyan/affine/ragtest",
+    "root_dir": "C:\\Users\\bjorn\\OneDrive - University of Twente\\School\\Affine\\affine-graphrag-testing\\ragtest",
     "reporting": {
         "type": "file",
-        "base_dir": "/home/jovyan/affine/ragtest/output",
+        "base_dir": "C:\\Users\\bjorn\\OneDrive - University of Twente\\School\\Affine\\affine-graphrag-testing\\ragtest\\output",
         "storage_account_blob_url": null
     },
     "storage": {
         "type": "file",
-        "base_dir": "/home/jovyan/affine/ragtest/output",
+        "base_dir": "C:\\Users\\bjorn\\OneDrive - University of Twente\\School\\Affine\\affine-graphrag-testing\\ragtest\\output",
         "storage_account_blob_url": null
     },
     "cache": {
@@ -72,17 +72,17 @@
         "llm": {
             "api_key": "==== REDACTED ====",
             "type": "azure_openai_embedding",
-            "model": "text-embedding-ada-002",
+            "model": "text-embedding-3-small",
             "max_tokens": 4000,
             "temperature": 0,
             "top_p": 1,
             "n": 1,
             "request_timeout": 180.0,
-            "api_base": "https://graphrag-affine.openai.azure.com",
-            "api_version": "2024-02-15-preview",
+            "api_base": "https://affine-project-us-east.openai.azure.com",
+            "api_version": "1",
             "proxy": null,
             "cognitive_services_endpoint": null,
-            "deployment_name": "text-embedding-ada-002",
+            "deployment_name": "text-embedding-3-small",
             "model_supports_json": null,
             "tokens_per_minute": 0,
             "requests_per_minute": 0,
@@ -105,7 +105,7 @@
     },
     "chunks": {
         "size": 1200,
-        "overlap": 100,
+        "overlap": 50,
         "group_by_columns": [
             "id"
         ],
@@ -121,20 +121,20 @@
         "llm": {
             "api_key": "==== REDACTED ====",
             "type": "azure_openai_chat",
-            "model": "gpt-4",
+            "model": "gpt-4o-mini",
             "max_tokens": 4000,
             "temperature": 0.0,
             "top_p": 1.0,
             "n": 1,
             "request_timeout": 180.0,
-            "api_base": "https://graphrag-affine.openai.azure.com",
-            "api_version": "2024-02-15-preview",
+            "api_base": "https://affine-project-us-east.openai.azure.com",
+            "api_version": "2023-03-15-preview",
             "proxy": null,
             "cognitive_services_endpoint": null,
-            "deployment_name": "gpt-4-turbo-2024-04-09",
+            "deployment_name": "gpt-4o-mini",
             "model_supports_json": true,
-            "tokens_per_minute": 0,
-            "requests_per_minute": 0,
+            "tokens_per_minute": 10000,
+            "requests_per_minute": 100,
             "max_retries": 10,
             "max_retry_wait": 10.0,
             "sleep_on_rate_limit_recommendation": true,
@@ -160,20 +160,20 @@
         "llm": {
             "api_key": "==== REDACTED ====",
             "type": "azure_openai_chat",
-            "model": "gpt-4",
+            "model": "gpt-4o-mini",
             "max_tokens": 4000,
             "temperature": 0.0,
             "top_p": 1.0,
             "n": 1,
             "request_timeout": 180.0,
-            "api_base": "https://graphrag-affine.openai.azure.com",
-            "api_version": "2024-02-15-preview",
+            "api_base": "https://affine-project-us-east.openai.azure.com",
+            "api_version": "2023-03-15-preview",
             "proxy": null,
             "cognitive_services_endpoint": null,
-            "deployment_name": "gpt-4-turbo-2024-04-09",
+            "deployment_name": "gpt-4o-mini",
             "model_supports_json": true,
-            "tokens_per_minute": 0,
-            "requests_per_minute": 0,
+            "tokens_per_minute": 10000,
+            "requests_per_minute": 100,
             "max_retries": 10,
             "max_retry_wait": 10.0,
             "sleep_on_rate_limit_recommendation": true,
@@ -192,20 +192,20 @@
         "llm": {
             "api_key": "==== REDACTED ====",
             "type": "azure_openai_chat",
-            "model": "gpt-4",
+            "model": "gpt-4o-mini",
             "max_tokens": 4000,
             "temperature": 0.0,
             "top_p": 1.0,
             "n": 1,
             "request_timeout": 180.0,
-            "api_base": "https://graphrag-affine.openai.azure.com",
-            "api_version": "2024-02-15-preview",
+            "api_base": "https://affine-project-us-east.openai.azure.com",
+            "api_version": "2023-03-15-preview",
             "proxy": null,
             "cognitive_services_endpoint": null,
-            "deployment_name": "gpt-4-turbo-2024-04-09",
+            "deployment_name": "gpt-4o-mini",
             "model_supports_json": true,
-            "tokens_per_minute": 0,
-            "requests_per_minute": 0,
+            "tokens_per_minute": 10000,
+            "requests_per_minute": 100,
             "max_retries": 10,
             "max_retry_wait": 10.0,
             "sleep_on_rate_limit_recommendation": true,
@@ -225,20 +225,20 @@
         "llm": {
             "api_key": "==== REDACTED ====",
             "type": "azure_openai_chat",
-            "model": "gpt-4",
+            "model": "gpt-4o-mini",
             "max_tokens": 4000,
             "temperature": 0.0,
             "top_p": 1.0,
             "n": 1,
             "request_timeout": 180.0,
-            "api_base": "https://graphrag-affine.openai.azure.com",
-            "api_version": "2024-02-15-preview",
+            "api_base": "https://affine-project-us-east.openai.azure.com",
+            "api_version": "2023-03-15-preview",
             "proxy": null,
             "cognitive_services_endpoint": null,
-            "deployment_name": "gpt-4-turbo-2024-04-09",
+            "deployment_name": "gpt-4o-mini",
             "model_supports_json": true,
-            "tokens_per_minute": 0,
-            "requests_per_minute": 0,
+            "tokens_per_minute": 10000,
+            "requests_per_minute": 100,
             "max_retries": 10,
             "max_retry_wait": 10.0,
             "sleep_on_rate_limit_recommendation": true,
@@ -288,222 +288,887 @@
     "encoding_model": "cl100k_base",
     "skip_workflows": []
 }
-11:41:29,829 graphrag.index.create_pipeline_config INFO skipping workflows 
-11:41:29,829 graphrag.index.run.run INFO Running pipeline
-11:41:29,829 graphrag.index.storage.file_pipeline_storage INFO Creating file storage at /home/jovyan/affine/ragtest/output
-11:41:29,852 graphrag.index.input.load_input INFO loading input from root_dir=input
-11:41:29,853 graphrag.index.input.load_input INFO using file storage for input
-11:41:29,858 graphrag.index.storage.file_pipeline_storage INFO search /home/jovyan/affine/ragtest/input for files matching .*\.txt$
-11:41:29,862 graphrag.index.input.text INFO found text files from input, found [('book.txt', {}), ('.ipynb_checkpoints/book-checkpoint.txt', {})]
-11:41:29,882 graphrag.index.input.text INFO Found 2 files, loading 2
-11:41:29,886 graphrag.index.workflows.load INFO Workflow Run Order: ['create_base_text_units', 'create_base_extracted_entities', 'create_summarized_entities', 'create_base_entity_graph', 'create_final_entities', 'create_final_nodes', 'create_final_communities', 'create_final_relationships', 'create_final_text_units', 'create_final_community_reports', 'create_base_documents', 'create_final_documents']
-11:41:29,886 graphrag.index.run.run INFO Final # of rows loaded: 2
-11:41:30,40 graphrag.index.run.workflow INFO dependencies for create_base_text_units: []
-11:41:30,44 datashaper.workflow.workflow INFO executing verb orderby
-11:41:30,47 datashaper.workflow.workflow INFO executing verb zip
-11:41:30,50 datashaper.workflow.workflow INFO executing verb aggregate_override
-11:41:30,55 datashaper.workflow.workflow INFO executing verb chunk
-11:41:32,55 datashaper.workflow.workflow INFO executing verb select
-11:41:32,59 datashaper.workflow.workflow INFO executing verb unroll
-11:41:32,64 datashaper.workflow.workflow INFO executing verb rename
-11:41:32,68 datashaper.workflow.workflow INFO executing verb genid
-11:41:32,77 datashaper.workflow.workflow INFO executing verb unzip
-11:41:32,82 datashaper.workflow.workflow INFO executing verb copy
-11:41:32,86 datashaper.workflow.workflow INFO executing verb filter
-11:41:32,99 graphrag.index.emit.parquet_table_emitter INFO emitting parquet table create_base_text_units.parquet
-11:41:32,290 graphrag.index.run.workflow INFO dependencies for create_base_extracted_entities: ['create_base_text_units']
-11:41:32,291 graphrag.utils.storage INFO read table from storage: create_base_text_units.parquet
-11:41:32,324 datashaper.workflow.workflow INFO executing verb entity_extract
-11:41:32,336 graphrag.llm.openai.create_openai_client INFO Creating Azure OpenAI client api_base=https://graphrag-affine.openai.azure.com, deployment_name=gpt-4-turbo-2024-04-09
-11:41:32,344 graphrag.index.llm.load_llm INFO create TPM/RPM limiter for gpt-4: TPM=0, RPM=0
-11:41:32,344 graphrag.index.llm.load_llm INFO create concurrency limiter for gpt-4: 25
-11:41:32,739 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,741 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:41:32,742 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,742 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,743 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,744 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:41:32,744 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:41:32,744 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:41:32,746 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,746 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,747 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:41:32,747 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:41:32,748 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,748 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,749 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:32,749 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:32,750 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,750 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,750 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:32,751 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:41:32,751 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,752 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,752 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,763 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:41:32,769 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:32,774 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:41:32,774 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,775 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,776 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:32,777 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:32,777 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,778 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,779 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,779 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,780 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,781 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,782 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:32,783 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:41:32,784 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:32,785 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:32,786 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:32,787 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:32,788 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,788 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,789 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,790 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:32,791 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:32,791 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:32,792 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:32,793 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:43,822 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:43,824 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:41:43,919 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:43,920 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:43,943 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:43,944 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:44,10 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:44,12 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:44,222 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:44,232 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:44,250 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:44,251 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:44,287 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:44,288 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:44,311 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:44,312 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:44,346 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:44,347 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:44,539 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:44,540 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:44,570 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:44,571 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:44,574 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:44,575 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:44,592 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:44,593 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:44,688 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:44,689 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:44,690 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:44,691 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:56,627 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:56,629 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:41:56,669 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:56,670 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:41:56,676 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:56,677 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:41:56,705 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:56,706 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:56,726 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:56,726 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:56,760 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:56,770 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:56,778 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:56,780 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:56,851 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:56,852 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:56,881 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:56,882 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:57,21 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:57,22 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:57,235 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:57,237 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:57,244 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:57,245 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:57,325 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:57,326 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:41:57,386 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:41:57,387 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:10,870 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:10,871 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:42:10,931 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:10,932 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:10,997 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:10,998 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:11,348 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:11,349 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:11,418 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:11,419 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:11,497 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:11,499 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:11,665 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:11,666 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:11,695 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:11,696 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:11,742 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:11,744 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:11,853 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:11,854 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:12,5 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:12,6 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 9 seconds. Follow recommendation? True
-11:42:29,282 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:29,284 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:42:29,581 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:29,583 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:29,653 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:29,655 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:29,975 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:29,975 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:30,2 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:30,3 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:30,22 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:30,23 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:30,40 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:30,41 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:30,101 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:30,102 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:30,254 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:30,256 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:30,625 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:30,626 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 9 seconds. Follow recommendation? True
-11:42:49,683 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:49,684 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:42:49,686 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:49,687 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:42:49,715 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:49,716 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:42:50,1 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:50,2 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:50,22 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:50,23 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:50,53 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:50,54 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:50,62 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:50,64 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:50,122 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:50,123 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:42:50,282 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:42:50,283 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:43:10,90 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:43:10,91 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 7/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:43:10,100 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:43:10,101 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 7/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:43:10,123 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:43:10,124 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 7/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:43:10,139 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:43:10,141 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 7/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:43:10,154 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:43:10,156 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 7/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:43:10,304 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:43:10,305 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 7/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:43:30,215 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:43:30,215 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 8/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:43:30,216 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:43:30,217 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 8/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:43:30,223 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:43:30,224 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 8/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
-11:43:30,325 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:43:30,326 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 8/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 10 seconds. Follow recommendation? True
-11:43:50,402 httpx INFO HTTP Request: POST https://graphrag-affine.openai.azure.com/openai/deployments/gpt-4-turbo-2024-04-09/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 429 Too Many Requests"
-11:43:50,403 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 9/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 86400 seconds. Follow recommendation? True
+20:08:15,73 graphrag.index.create_pipeline_config INFO skipping workflows 
+20:08:15,73 graphrag.index.run.run INFO Running pipeline
+20:08:15,74 graphrag.index.storage.file_pipeline_storage INFO Creating file storage at C:\Users\bjorn\OneDrive - University of Twente\School\Affine\affine-graphrag-testing\ragtest\output
+20:08:15,74 graphrag.index.input.load_input INFO loading input from root_dir=input
+20:08:15,74 graphrag.index.input.load_input INFO using file storage for input
+20:08:15,76 graphrag.index.storage.file_pipeline_storage INFO search C:\Users\bjorn\OneDrive - University of Twente\School\Affine\affine-graphrag-testing\ragtest\input for files matching .*\.txt$
+20:08:15,77 graphrag.index.input.text INFO found text files from input, found [('book.txt', {})]
+20:08:15,80 graphrag.index.input.text INFO Found 1 files, loading 1
+20:08:15,81 graphrag.index.workflows.load INFO Workflow Run Order: ['create_base_text_units', 'create_base_extracted_entities', 'create_summarized_entities', 'create_base_entity_graph', 'create_final_entities', 'create_final_nodes', 'create_final_communities', 'create_final_relationships', 'create_final_text_units', 'create_final_community_reports', 'create_base_documents', 'create_final_documents']
+20:08:15,81 graphrag.index.run.run INFO Final # of rows loaded: 1
+20:08:15,211 graphrag.index.run.workflow INFO dependencies for create_base_text_units: []
+20:08:15,217 datashaper.workflow.workflow INFO executing verb orderby
+20:08:15,219 datashaper.workflow.workflow INFO executing verb zip
+20:08:15,222 datashaper.workflow.workflow INFO executing verb aggregate_override
+20:08:15,226 datashaper.workflow.workflow INFO executing verb chunk
+20:08:15,378 datashaper.workflow.workflow INFO executing verb select
+20:08:15,382 datashaper.workflow.workflow INFO executing verb unroll
+20:08:15,387 datashaper.workflow.workflow INFO executing verb rename
+20:08:15,391 datashaper.workflow.workflow INFO executing verb genid
+20:08:15,394 datashaper.workflow.workflow INFO executing verb unzip
+20:08:15,399 datashaper.workflow.workflow INFO executing verb copy
+20:08:15,403 datashaper.workflow.workflow INFO executing verb filter
+20:08:15,415 graphrag.index.emit.parquet_table_emitter INFO emitting parquet table create_base_text_units.parquet
+20:08:15,571 graphrag.index.run.workflow INFO dependencies for create_base_extracted_entities: ['create_base_text_units']
+20:08:15,573 graphrag.utils.storage INFO read table from storage: create_base_text_units.parquet
+20:08:15,590 datashaper.workflow.workflow INFO executing verb entity_extract
+20:08:15,593 graphrag.llm.openai.create_openai_client INFO Creating Azure OpenAI client api_base=https://affine-project-us-east.openai.azure.com, deployment_name=gpt-4o-mini
+20:08:15,759 graphrag.index.llm.load_llm INFO create TPM/RPM limiter for gpt-4o-mini: TPM=10000, RPM=100
+20:08:15,759 graphrag.index.llm.load_llm INFO create concurrency limiter for gpt-4o-mini: 25
+20:08:18,237 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:08:18,241 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "Process" with 0 retries took 2.4689999998081475. input_tokens=2936, output_tokens=240
+20:08:18,378 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:08:18,379 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 59 seconds. Follow recommendation? True
+20:08:19,466 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:08:19,467 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "Process" with 0 retries took 3.6879999998491257. input_tokens=2937, output_tokens=398
+20:08:19,608 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:08:19,610 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 57 seconds. Follow recommendation? True
+20:08:22,618 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:08:22,619 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "Process" with 0 retries took 6.8439999998081475. input_tokens=2935, output_tokens=870
+20:08:22,714 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:08:22,714 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 54 seconds. Follow recommendation? True
+20:08:40,639 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:08:40,640 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 36 seconds. Follow recommendation? True
+20:08:58,284 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:08:58,285 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 19 seconds. Follow recommendation? True
+20:09:12,358 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:09:12,358 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 5 seconds. Follow recommendation? True
+20:09:19,40 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:09:19,41 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 60 seconds. Follow recommendation? True
+20:09:19,216 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:09:19,217 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 60 seconds. Follow recommendation? True
+20:09:21,993 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:09:21,995 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "extract-continuation-0" with 1 retries took 3.5. input_tokens=34, output_tokens=525
+20:09:33,326 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:09:33,326 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 46 seconds. Follow recommendation? True
+20:09:50,929 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:09:50,930 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 29 seconds. Follow recommendation? True
+20:10:08,576 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:10:08,577 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 11 seconds. Follow recommendation? True
+20:10:21,961 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:10:21,962 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 60 seconds. Follow recommendation? True
+20:10:22,44 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:10:22,45 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 60 seconds. Follow recommendation? True
+20:10:25,268 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:10:25,269 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "Process" with 1 retries took 3.906999999890104. input_tokens=2936, output_tokens=460
+20:10:25,363 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:10:25,364 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 57 seconds. Follow recommendation? True
+20:10:36,13 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:10:36,16 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 46 seconds. Follow recommendation? True
+20:10:53,657 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:10:53,658 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 29 seconds. Follow recommendation? True
+20:11:11,288 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:11:11,289 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 11 seconds. Follow recommendation? True
+20:11:26,895 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:11:26,897 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 58 seconds. Follow recommendation? True
+20:11:26,899 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:11:26,900 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 58 seconds. Follow recommendation? True
+20:11:27,63 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:11:27,63 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 58 seconds. Follow recommendation? True
+20:11:27,124 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:11:28,999 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "extract-continuation-0" with 1 retries took 3.1870000001508743. input_tokens=34, output_tokens=310
+20:11:47,6 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:11:47,7 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 38 seconds. Follow recommendation? True
+20:12:04,656 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:12:04,657 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 4/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 20 seconds. Follow recommendation? True
+20:12:33,207 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:12:33,208 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "Process" with 3 retries took 3.9850000001024455. input_tokens=2936, output_tokens=561
+20:12:33,303 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:12:33,304 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 57 seconds. Follow recommendation? True
+20:12:33,716 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:12:33,716 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 56 seconds. Follow recommendation? True
+20:12:33,839 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:12:33,839 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 56 seconds. Follow recommendation? True
+20:12:47,619 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:12:47,620 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 42 seconds. Follow recommendation? True
+20:13:05,190 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:13:05,191 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 5/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 25 seconds. Follow recommendation? True
+20:13:35,173 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:13:35,174 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "extract-continuation-0" with 1 retries took 3.281999999890104. input_tokens=34, output_tokens=437
+20:13:39,737 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:13:39,741 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 53 seconds. Follow recommendation? True
+20:13:39,953 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:13:39,955 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 53 seconds. Follow recommendation? True
+20:13:40,178 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:13:40,180 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 53 seconds. Follow recommendation? True
+20:13:40,269 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:13:40,270 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 6/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 53 seconds. Follow recommendation? True
+20:14:43,330 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:14:43,331 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 7/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 60 seconds. Follow recommendation? True
+20:14:43,648 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:14:43,649 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 7/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 60 seconds. Follow recommendation? True
+20:14:43,669 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:14:43,671 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 7/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 60 seconds. Follow recommendation? True
+20:14:46,43 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:14:46,44 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "Process" with 6 retries took 3.280999999959022. input_tokens=2340, output_tokens=448
+20:14:46,218 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:14:46,219 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 57 seconds. Follow recommendation? True
+20:15:48,420 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:15:48,421 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "extract-continuation-0" with 1 retries took 3.577999999979511. input_tokens=34, output_tokens=522
+20:15:53,462 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:15:53,463 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 8/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 52 seconds. Follow recommendation? True
+20:15:53,774 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:15:53,775 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 8/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 52 seconds. Follow recommendation? True
+20:15:54,148 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:15:54,150 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 8/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 52 seconds. Follow recommendation? True
+20:16:56,177 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:16:56,177 graphrag.llm.base.rate_limiting_llm WARNING Process failed to invoke LLM 9/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 60 seconds. Follow recommendation? True
+20:16:56,607 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:16:56,608 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 9/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 60 seconds. Follow recommendation? True
+20:16:57,578 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:16:57,579 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "extract-continuation-0" with 8 retries took 2.093000000109896. input_tokens=34, output_tokens=212
+20:18:07,86 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:18:07,88 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 10/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 60 seconds. Follow recommendation? True
+20:18:09,665 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:18:09,666 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "Process" with 9 retries took 3.468000000109896. input_tokens=2936, output_tokens=463
+20:18:09,761 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:18:09,762 graphrag.llm.base.rate_limiting_llm WARNING extract-continuation-0 failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 57 seconds. Follow recommendation? True
+20:19:07,105 root ERROR error extracting graph
+Traceback (most recent call last):
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\index\graph\extractors\graph\graph_extractor.py", line 122, in __call__
+    result = await self._process_document(text, prompt_variables)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\index\graph\extractors\graph\graph_extractor.py", line 161, in _process_document
+    response = await self._llm(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\openai\json_parsing_llm.py", line 34, in __call__
+    result = await self._delegate(input, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\openai\openai_token_replacing_llm.py", line 37, in __call__
+    return await self._delegate(input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\openai\openai_history_tracking_llm.py", line 33, in __call__
+    output = await self._delegate(input, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\caching_llm.py", line 96, in __call__
+    result = await self._delegate(input, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\rate_limiting_llm.py", line 177, in __call__
+    result, start = await execute_with_retry()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\rate_limiting_llm.py", line 159, in execute_with_retry
+    async for attempt in retryer:
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\tenacity\asyncio\__init__.py", line 166, in __anext__
+    do = await self.iter(retry_state=self._retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\tenacity\__init__.py", line 418, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\tenacity\__init__.py", line 185, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\rate_limiting_llm.py", line 165, in execute_with_retry
+    return await do_attempt(), start
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\rate_limiting_llm.py", line 151, in do_attempt
+    await sleep_for(sleep_time)
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\rate_limiting_llm.py", line 147, in do_attempt
+    return await self._delegate(input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\base_llm.py", line 50, in __call__
+    return await self._invoke(input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\base_llm.py", line 54, in _invoke
+    output = await self._execute_llm(input, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\openai\openai_chat_llm.py", line 53, in _execute_llm
+    completion = await self.client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\openai\resources\chat\completions.py", line 1490, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\openai\_base_client.py", line 1831, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\openai\_base_client.py", line 1525, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\openai\_base_client.py", line 1626, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the Chatcompletions_Create Operation under Azure OpenAI API version 2023-03-15-preview have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 60 seconds. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit.'}}
+20:19:07,118 graphrag.index.reporting.file_workflow_callbacks INFO Entity Extraction Error details={'doc_index': 0, 'text': 'ous group                                      62\n\n  Laden with Christmas toys and\n    presents                                                          64\n\n  The way he went after that plump\n    sister in the lace tucker!                                       100\n\n  "How are you?" said one.\n    "How are you?" returned the other.\n   "Well!" said the first. "Old\n    Scratch has got his own at last,\n    hey?"                                                            114\n\n  "What do you call this?" said Joe.\n    "Bed-curtains!" "Ah!" returned\n    the woman, laughing....\n    "Bed-curtains!"\n\n  "You don\'t mean to say you took\n    \'em down, rings and all, with him\n    lying there?" said Joe.\n\n  "Yes, I do," replied the woman.\n    "Why not?"                                                       120\n\n  "It\'s I, your uncle Scrooge. I have\n    come to dinner. Will you let\n    me in, Fred?"                                                    144\n\n  "Now, I\'ll tell you what, my friend,"\n    said Scrooge. "I am not going\n    to stand this sort of thing any\n    longer."                                                         146\n\n[Illustration]\n\n_IN BLACK AND WHITE_\n\n\n  Tailpiece                                                           vi\n  Tailpiece to List of Coloured Illustrations                          x\n  Tailpiece to List of Black and White Illustrations                  xi\n  Heading to Stave One                                                 3\n  They were portly gentlemen, pleasant to behold                      12\n  On the wings of the wind                                         28-29\n  Tailpiece to Stave One                                              34\n  Heading to Stave Two                                                37\n  He produced a decanter of curiously\n  light wine and a block of curiously heavy cake                      50\n  She left him, and they parted                                       60\n  Tailpiece to Stave Two                                              65\n  Heading to Stave Three                                              69\n  There was nothing very cheerful in the climate                      75\n  He had been Tim\'s blood-horse all the way from church            84-85\n  With the pudding                                                    88\n  Heading to Stave Four                                              111\n  Heading to Stave Five                                              137\n  Tailpiece to Stave Five                                            147\n\n[Illustration]\n\n\nSTAVE ONE\n\n\n[Illustration]\n\n\n\n\nMARLEY\'S GHOST\n\n\nMarley was dead, to begin with. There is no doubt whatever about that.\nThe register of his burial was signed by the clergyman, the clerk, the\nundertaker, and the chief mourner. Scrooge signed it. And Scrooge\'s name\nwas good upon \'Change for anything he chose to put his hand to. Old\nMarley was as dead as a door-nail.\n\nMind! I don\'t mean to say that I know of my own knowledge, what there is\nparticularly dead about a door-nail. I might have been inclined, myself,\nto regard a coffin-nail as the deadest piece of ironmongery in the\ntrade. But the wisdom of our ancestors is in the simile; and my\nunhallowed hands shall not disturb it, or the country\'s done for. You\nwill, therefore, permit me to repeat, emphatically, that Marley was as\ndead as a door-nail.\n\nScrooge knew he was dead? Of course he did. How could it be otherwise?\nScrooge and he were partners for I don\'t know how many years. Scrooge\nwas his sole executor, his sole administrator, his sole assign, his sole\nresiduary legatee, his sole friend, and sole mourner. And even Scrooge\nwas not so dreadfully cut up by the sad event but that he was an\nexcellent man of business on the very day of the funeral, and solemnised\nit with an undoubted bargain.\n\nThe mention of Marley\'s funeral brings me back to the point I started\nfrom. There is no doubt that Marley was dead. This must be distinctly\nunderstood, or nothing wonderful can come of the story I am going to\nrelate. If we were not perfectly convinced that Hamlet\'s father died\nbefore the play began, there would be nothing more remarkable in his\ntaking a stroll at night, in an easterly wind, upon his own ramparts,\nthan there would be in any other middle-aged gentleman rashly turning\nout after dark in a breezy spot--say St. Paul\'s Churchyard, for\ninstance--literally to astonish his son\'s weak mind.\n\nScrooge never painted out Old Marley\'s name. There it stood, years\nafterwards, above the warehouse door: Scrooge and Marley. The firm was\nknown as Scrooge and Marley. Sometimes people new to the business called\nScrooge Scrooge, and sometimes Marley, but he answered to both names. It\nwas all the same to him.\n\nOh! but he was a tight-fisted hand at the grindstone, Scrooge! a\nsqueezing, wrenching, grasping, scraping, clutching, covetous old\nsinner! Hard and sharp as flint, from which no steel had ever struck out\ngenerous fire; secret, and self-contained, and solitary as an oyster.\nThe cold within him froze his old features, nipped his pointed nose,\nshrivelled his cheek, stiffened his gait; made his eyes red, his thin\nlips blue; and spoke out shrewdly in his grating voice. A frosty rime\nwas on his head, and on his eyebrows, and his wiry chin. He carried his\nown'}
+20:19:09,875 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:19:09,875 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "extract-continuation-0" with 1 retries took 2.0160000000614673. input_tokens=34, output_tokens=200
+20:19:09,892 datashaper.workflow.workflow INFO executing verb merge_graphs
+20:19:09,901 graphrag.index.emit.parquet_table_emitter INFO emitting parquet table create_base_extracted_entities.parquet
+20:19:10,76 graphrag.index.run.workflow INFO dependencies for create_summarized_entities: ['create_base_extracted_entities']
+20:19:10,76 graphrag.utils.storage INFO read table from storage: create_base_extracted_entities.parquet
+20:19:10,91 datashaper.workflow.workflow INFO executing verb summarize_descriptions
+20:19:10,554 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:19:10,554 graphrag.llm.base.rate_limiting_llm WARNING summarize failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 58 seconds. Follow recommendation? True
+20:19:10,919 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:19:10,920 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "summarize" with 0 retries took 0.796000000089407. input_tokens=186, output_tokens=87
+20:19:10,932 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:19:10,933 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "summarize" with 0 retries took 0.8119999999180436. input_tokens=145, output_tokens=45
+20:19:11,69 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:19:11,70 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "summarize" with 0 retries took 0.9369999999180436. input_tokens=169, output_tokens=65
+20:19:11,97 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:19:11,98 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "summarize" with 0 retries took 0.9680000001098961. input_tokens=178, output_tokens=76
+20:19:11,140 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:19:11,140 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "summarize" with 0 retries took 1.0149999998975545. input_tokens=189, output_tokens=70
+20:19:11,179 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:19:11,180 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "summarize" with 0 retries took 1.0310000001918525. input_tokens=200, output_tokens=70
+20:19:11,269 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:19:11,270 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "summarize" with 0 retries took 1.125. input_tokens=187, output_tokens=95
+20:19:11,295 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:19:11,296 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "summarize" with 0 retries took 1.1560000001918525. input_tokens=202, output_tokens=97
+20:19:11,386 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:19:11,388 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "summarize" with 0 retries took 1.2649999998975545. input_tokens=264, output_tokens=129
+20:19:11,487 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:19:11,488 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "summarize" with 0 retries took 1.3589999999385327. input_tokens=201, output_tokens=109
+20:20:11,256 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:20:11,257 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "summarize" with 1 retries took 1.125. input_tokens=167, output_tokens=67
+20:20:11,270 graphrag.index.emit.parquet_table_emitter INFO emitting parquet table create_summarized_entities.parquet
+20:20:11,428 graphrag.index.run.workflow INFO dependencies for create_base_entity_graph: ['create_summarized_entities']
+20:20:11,429 graphrag.utils.storage INFO read table from storage: create_summarized_entities.parquet
+20:20:11,445 datashaper.workflow.workflow INFO executing verb cluster_graph
+20:20:11,474 datashaper.workflow.workflow INFO executing verb select
+20:20:11,477 graphrag.index.emit.parquet_table_emitter INFO emitting parquet table create_base_entity_graph.parquet
+20:20:11,641 graphrag.index.run.workflow INFO dependencies for create_final_entities: ['create_base_entity_graph']
+20:20:11,642 graphrag.utils.storage INFO read table from storage: create_base_entity_graph.parquet
+20:20:11,659 datashaper.workflow.workflow INFO executing verb unpack_graph
+20:20:11,671 datashaper.workflow.workflow INFO executing verb rename
+20:20:11,678 datashaper.workflow.workflow INFO executing verb select
+20:20:11,687 datashaper.workflow.workflow INFO executing verb dedupe
+20:20:11,695 datashaper.workflow.workflow INFO executing verb rename
+20:20:11,703 datashaper.workflow.workflow INFO executing verb filter
+20:20:11,722 datashaper.workflow.workflow INFO executing verb text_split
+20:20:11,730 datashaper.workflow.workflow INFO executing verb drop
+20:20:11,738 datashaper.workflow.workflow INFO executing verb merge
+20:20:11,754 datashaper.workflow.workflow INFO executing verb text_embed
+20:20:11,758 graphrag.llm.openai.create_openai_client INFO Creating Azure OpenAI client api_base=https://affine-project-us-east.openai.azure.com, deployment_name=text-embedding-3-small
+20:20:11,933 graphrag.index.llm.load_llm INFO create TPM/RPM limiter for text-embedding-3-small: TPM=0, RPM=0
+20:20:11,933 graphrag.index.llm.load_llm INFO create concurrency limiter for text-embedding-3-small: 25
+20:20:11,937 graphrag.index.verbs.text.embed.strategies.openai INFO embedding 52 inputs via 52 snippets using 4 batches. max_batch_size=16, max_tokens=8191
+20:20:12,300 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=1 "HTTP/1.1 404 Resource Not Found"
+20:20:12,307 graphrag.index.reporting.file_workflow_callbacks INFO Error Invoking LLM details={'input': ['SCROOGE:Scrooge is a character depicted as a miserly old man who lives alone and is indifferent to the world around him. He often broods over his thoughts in the dark, reflecting his gloomy disposition. Working in a dreary office in the City of London, Scrooge is known for his lack of compassion, particularly during the Christmas season, which he despises. His behavior is characterized by a dismissive attitude towards Christmas and a preference for isolation and wealth over joy and generosity. Overall, Scrooge embodies the archetype of a miser, prioritizing his own financial gain while neglecting human connection and the spirit of the holiday.', "SCROOGE'S NEPHEW:Scrooge's nephew is a cheerful and kind-hearted character who embodies the spirit of Christmas. He values the holiday deeply and makes efforts to persuade his uncle, Scrooge, to embrace the festive season. Through his warm demeanor and inviting nature, he seeks to encourage Scrooge to join in the celebrations, highlighting the importance of family and togetherness during Christmas.", "CHRISTMAS:Christmas is a festive season celebrated on December 25th, symbolizing joy, generosity, and family gatherings. It is a time that Scrooge's nephew cherishes and attempts to celebrate with his uncle, despite Scrooge's vehement opposition to the holiday. While Scrooge dismisses Christmas, it is embraced by others, including Bob Cratchit and the Lord Mayor, who find joy and meaning in the season. Overall, Christmas represents a contrast between Scrooge's disdain and the warmth and celebration experienced by those around him.", 'CLERK:The clerk is an employee of Scrooge, working in a small, dismal cell where he spends his time copying letters and attempting to keep warm. Despite the bleak conditions of his workplace and the cold demeanor of his employer, the clerk possesses a warm-hearted nature, demonstrating a greater appreciation for Christmas than Scrooge himself.', 'FROSTY RIME:The frosty rime refers to the cold weather conditions that create a chilling atmosphere around Scrooge.', "COUNTING-HOUSE:The counting-house is the place where Scrooge conducts his business, symbolizing his prioritization of profit over people. This setting reflects Scrooge's character and his approach to life, emphasizing his obsession with financial gain.", "MARLEY:Marley is Scrooge's deceased business partner, having been dead for seven years. He appears to Scrooge in a ghostly form, serving as a significant figure in Scrooge's reflections and fears. Marley's face haunts Scrooge's thoughts, emphasizing the lasting impact of his death on Scrooge's psyche.", 'POOR AND DESTITUTE:The poor and destitute are individuals suffering during the festive season, prompting discussions about charity.', 'GENTLEMEN:The gentlemen are portly individuals who visit Scrooge to discuss charitable contributions during Christmas.', 'CREDENTIALS:The credentials are presented by the gentlemen to Scrooge as part of their request for charitable donations.', "SCROOGE'S OFFICE", 'POOR LAW:The Poor Law is a system established to provide assistance to the poor, which Scrooge supports financially.', 'TREADMILL:The Treadmill is a form of punishment and labor for the poor, which Scrooge acknowledges as still in operation.', 'LORD MAYOR:The Lord Mayor oversees the Mansion House and is responsible for ensuring that Christmas is celebrated properly in his household.', 'MANSION HOUSE:The Mansion House is the official residence of the Lord Mayor, where Christmas festivities are organized.', 'FIRE:A fire is lit by laborers to keep warm, representing a communal gathering point during the cold weather.']}
+20:20:12,308 datashaper.workflow.workflow ERROR Error executing verb "text_embed" in create_final_entities: Error code: 404 - {'error': {'code': '404', 'message': 'Resource not found'}}
+Traceback (most recent call last):
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\datashaper\workflow\workflow.py", line 415, in _execute_verb
+    result = await result
+             ^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\index\verbs\text\embed\text_embed.py", line 105, in text_embed
+    return await _text_embed_in_memory(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\index\verbs\text\embed\text_embed.py", line 130, in _text_embed_in_memory
+    result = await strategy_exec(texts, callbacks, cache, strategy_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\index\verbs\text\embed\strategies\openai.py", line 62, in run
+    embeddings = await _execute(llm, text_batches, ticker, semaphore)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\index\verbs\text\embed\strategies\openai.py", line 106, in _execute
+    results = await asyncio.gather(*futures)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\index\verbs\text\embed\strategies\openai.py", line 100, in embed
+    chunk_embeddings = await llm(chunk)
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\caching_llm.py", line 96, in __call__
+    result = await self._delegate(input, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\rate_limiting_llm.py", line 177, in __call__
+    result, start = await execute_with_retry()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\rate_limiting_llm.py", line 159, in execute_with_retry
+    async for attempt in retryer:
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\tenacity\asyncio\__init__.py", line 166, in __anext__
+    do = await self.iter(retry_state=self._retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\rate_limiting_llm.py", line 165, in execute_with_retry
+    return await do_attempt(), start
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\rate_limiting_llm.py", line 147, in do_attempt
+    return await self._delegate(input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\base_llm.py", line 50, in __call__
+    return await self._invoke(input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\base_llm.py", line 54, in _invoke
+    output = await self._execute_llm(input, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\openai\openai_embeddings_llm.py", line 36, in _execute_llm
+    embedding = await self.client.embeddings.create(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\openai\resources\embeddings.py", line 236, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\openai\_base_client.py", line 1831, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\openai\_base_client.py", line 1525, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\openai\_base_client.py", line 1626, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.NotFoundError: Error code: 404 - {'error': {'code': '404', 'message': 'Resource not found'}}
+20:20:12,313 graphrag.index.reporting.file_workflow_callbacks INFO Error executing verb "text_embed" in create_final_entities: Error code: 404 - {'error': {'code': '404', 'message': 'Resource not found'}} details=None
+20:20:12,321 graphrag.index.run.run ERROR error running workflow create_final_entities
+Traceback (most recent call last):
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\index\run\run.py", line 227, in run_pipeline
+    result = await _process_workflow(
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\index\run\workflow.py", line 91, in _process_workflow
+    result = await workflow.run(context, callbacks)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\datashaper\workflow\workflow.py", line 369, in run
+    timing = await self._execute_verb(node, context, callbacks)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\datashaper\workflow\workflow.py", line 415, in _execute_verb
+    result = await result
+             ^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\index\verbs\text\embed\text_embed.py", line 105, in text_embed
+    return await _text_embed_in_memory(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\index\verbs\text\embed\text_embed.py", line 130, in _text_embed_in_memory
+    result = await strategy_exec(texts, callbacks, cache, strategy_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\index\verbs\text\embed\strategies\openai.py", line 62, in run
+    embeddings = await _execute(llm, text_batches, ticker, semaphore)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\index\verbs\text\embed\strategies\openai.py", line 106, in _execute
+    results = await asyncio.gather(*futures)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\index\verbs\text\embed\strategies\openai.py", line 100, in embed
+    chunk_embeddings = await llm(chunk)
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\caching_llm.py", line 96, in __call__
+    result = await self._delegate(input, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\rate_limiting_llm.py", line 177, in __call__
+    result, start = await execute_with_retry()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\rate_limiting_llm.py", line 159, in execute_with_retry
+    async for attempt in retryer:
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\tenacity\asyncio\__init__.py", line 166, in __anext__
+    do = await self.iter(retry_state=self._retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\rate_limiting_llm.py", line 165, in execute_with_retry
+    return await do_attempt(), start
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\rate_limiting_llm.py", line 147, in do_attempt
+    return await self._delegate(input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\base_llm.py", line 50, in __call__
+    return await self._invoke(input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\base\base_llm.py", line 54, in _invoke
+    output = await self._execute_llm(input, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\graphrag\llm\openai\openai_embeddings_llm.py", line 36, in _execute_llm
+    embedding = await self.client.embeddings.create(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\openai\resources\embeddings.py", line 236, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\openai\_base_client.py", line 1831, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\openai\_base_client.py", line 1525, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bjorn\anaconda3\Lib\site-packages\openai\_base_client.py", line 1626, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.NotFoundError: Error code: 404 - {'error': {'code': '404', 'message': 'Resource not found'}}
+20:20:12,325 graphrag.index.reporting.file_workflow_callbacks INFO Error running pipeline! details=None
+20:20:12,343 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=1 "HTTP/1.1 404 Resource Not Found"
+20:20:12,345 graphrag.index.reporting.file_workflow_callbacks INFO Error Invoking LLM details={'input': ['RAGGED MEN AND BOYS:A group of individuals gathered around the fire, indicating the plight of the poor during the harsh winter.', "HOLLY SPRIGS AND BERRIES:Decorations used in shops during the Christmas season, symbolizing the festive spirit that contrasts with Scrooge's attitude.", 'CANDLE:Candles are used for lighting, particularly by Bob Cratchit as he prepares to leave the counting-house.', 'GAS-PIPES', 'CORNHILL:Cornhill is a location in London where the clerk, Bob Cratchit, went down a slide in celebration of Christmas Eve.', 'CAMDEN TOWN:Camden Town is a district in London where Bob Cratchit runs home to celebrate Christmas Eve.', 'LONDON:London is the city where Scrooge lives and works, characterized by its fog and frost.', 'CHRISTMAS EVE:Christmas Eve is the day before Christmas, celebrated by characters in the text, including Bob Cratchit.', "GREATCOAT:Scrooge's greatcoat is a symbol of his miserly nature, as he buttoned it up tightly against the cold.", "ALHAMIA PRISON:Alhamia Prison is a fictional location where Scrooge's partner Marley might have been held, symbolizing the consequences of a miserly life.", "GLOOM:The gloom surrounding Scrooge's life represents his isolation and unhappiness, particularly during the festive season.", "DUTCH MERCHANT:The Dutch merchant is an unnamed historical figure who built the fireplace in Scrooge's room, indicating a connection to the past.", "FIREPLACE:The fireplace is an old structure in Scrooge's room, paved with Dutch tiles that depict various biblical scenes.", "NIGHT:The night is described as bitter and dark, setting the mood for Scrooge's solitary reflections.", "BEDROOM:The bedroom is another room in Scrooge's home, contributing to the depiction of his solitary lifestyle.", "LUMBER-ROOM:The lumber-room is a storage area in Scrooge's home, filled with old items, further emphasizing his reclusive nature."]}
+20:20:12,345 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=1 "HTTP/1.1 404 Resource Not Found"
+20:20:12,346 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=1 "HTTP/1.1 404 Resource Not Found"
+20:20:12,356 graphrag.index.cli ERROR Errors occurred during the pipeline run, see logs for more details.
+20:30:16,891 graphrag.index.cli INFO Logging enabled at C:\Users\bjorn\OneDrive - University of Twente\School\Affine\affine-graphrag-testing\ragtest\output\indexing-engine.log
+20:30:16,894 graphrag.index.cli INFO Starting pipeline run for: 20241003-203016, dryrun=False
+20:30:16,895 graphrag.index.cli INFO Using default configuration: {
+    "llm": {
+        "api_key": "==== REDACTED ====",
+        "type": "azure_openai_chat",
+        "model": "gpt-4o-mini",
+        "max_tokens": 4000,
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "n": 1,
+        "request_timeout": 180.0,
+        "api_base": "https://affine-project-us-east.openai.azure.com",
+        "api_version": "2023-03-15-preview",
+        "proxy": null,
+        "cognitive_services_endpoint": null,
+        "deployment_name": "gpt-4o-mini",
+        "model_supports_json": true,
+        "tokens_per_minute": 10000,
+        "requests_per_minute": 50,
+        "max_retries": 10,
+        "max_retry_wait": 10.0,
+        "sleep_on_rate_limit_recommendation": true,
+        "concurrent_requests": 25
+    },
+    "parallelization": {
+        "stagger": 0.3,
+        "num_threads": 50
+    },
+    "async_mode": "threaded",
+    "root_dir": "C:\\Users\\bjorn\\OneDrive - University of Twente\\School\\Affine\\affine-graphrag-testing\\ragtest",
+    "reporting": {
+        "type": "file",
+        "base_dir": "C:\\Users\\bjorn\\OneDrive - University of Twente\\School\\Affine\\affine-graphrag-testing\\ragtest\\output",
+        "storage_account_blob_url": null
+    },
+    "storage": {
+        "type": "file",
+        "base_dir": "C:\\Users\\bjorn\\OneDrive - University of Twente\\School\\Affine\\affine-graphrag-testing\\ragtest\\output",
+        "storage_account_blob_url": null
+    },
+    "cache": {
+        "type": "file",
+        "base_dir": "cache",
+        "storage_account_blob_url": null
+    },
+    "input": {
+        "type": "file",
+        "file_type": "text",
+        "base_dir": "input",
+        "storage_account_blob_url": null,
+        "encoding": "utf-8",
+        "file_pattern": ".*\\.txt$",
+        "file_filter": null,
+        "source_column": null,
+        "timestamp_column": null,
+        "timestamp_format": null,
+        "text_column": "text",
+        "title_column": null,
+        "document_attribute_columns": []
+    },
+    "embed_graph": {
+        "enabled": false,
+        "num_walks": 10,
+        "walk_length": 40,
+        "window_size": 2,
+        "iterations": 3,
+        "random_seed": 597832,
+        "strategy": null
+    },
+    "embeddings": {
+        "llm": {
+            "api_key": "==== REDACTED ====",
+            "type": "azure_openai_embedding",
+            "model": "text-embedding-3-small",
+            "max_tokens": 4000,
+            "temperature": 0,
+            "top_p": 1,
+            "n": 1,
+            "request_timeout": 180.0,
+            "api_base": "https://affine-project-us-east.openai.azure.com",
+            "api_version": "2023-05-15",
+            "proxy": null,
+            "cognitive_services_endpoint": null,
+            "deployment_name": "text-embedding-3-small",
+            "model_supports_json": null,
+            "tokens_per_minute": 10000,
+            "requests_per_minute": 50,
+            "max_retries": 10,
+            "max_retry_wait": 10.0,
+            "sleep_on_rate_limit_recommendation": true,
+            "concurrent_requests": 25
+        },
+        "parallelization": {
+            "stagger": 0.3,
+            "num_threads": 50
+        },
+        "async_mode": "threaded",
+        "batch_size": 16,
+        "batch_max_tokens": 8191,
+        "target": "required",
+        "skip": [],
+        "vector_store": null,
+        "strategy": null
+    },
+    "chunks": {
+        "size": 1200,
+        "overlap": 50,
+        "group_by_columns": [
+            "id"
+        ],
+        "strategy": null,
+        "encoding_model": null
+    },
+    "snapshots": {
+        "graphml": false,
+        "raw_entities": false,
+        "top_level_nodes": false
+    },
+    "entity_extraction": {
+        "llm": {
+            "api_key": "==== REDACTED ====",
+            "type": "azure_openai_chat",
+            "model": "gpt-4o-mini",
+            "max_tokens": 4000,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "n": 1,
+            "request_timeout": 180.0,
+            "api_base": "https://affine-project-us-east.openai.azure.com",
+            "api_version": "2023-03-15-preview",
+            "proxy": null,
+            "cognitive_services_endpoint": null,
+            "deployment_name": "gpt-4o-mini",
+            "model_supports_json": true,
+            "tokens_per_minute": 10000,
+            "requests_per_minute": 50,
+            "max_retries": 10,
+            "max_retry_wait": 10.0,
+            "sleep_on_rate_limit_recommendation": true,
+            "concurrent_requests": 25
+        },
+        "parallelization": {
+            "stagger": 0.3,
+            "num_threads": 50
+        },
+        "async_mode": "threaded",
+        "prompt": "prompts/entity_extraction.txt",
+        "entity_types": [
+            "organization",
+            "person",
+            "geo",
+            "event"
+        ],
+        "max_gleanings": 1,
+        "strategy": null,
+        "encoding_model": null
+    },
+    "summarize_descriptions": {
+        "llm": {
+            "api_key": "==== REDACTED ====",
+            "type": "azure_openai_chat",
+            "model": "gpt-4o-mini",
+            "max_tokens": 4000,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "n": 1,
+            "request_timeout": 180.0,
+            "api_base": "https://affine-project-us-east.openai.azure.com",
+            "api_version": "2023-03-15-preview",
+            "proxy": null,
+            "cognitive_services_endpoint": null,
+            "deployment_name": "gpt-4o-mini",
+            "model_supports_json": true,
+            "tokens_per_minute": 10000,
+            "requests_per_minute": 50,
+            "max_retries": 10,
+            "max_retry_wait": 10.0,
+            "sleep_on_rate_limit_recommendation": true,
+            "concurrent_requests": 25
+        },
+        "parallelization": {
+            "stagger": 0.3,
+            "num_threads": 50
+        },
+        "async_mode": "threaded",
+        "prompt": "prompts/summarize_descriptions.txt",
+        "max_length": 500,
+        "strategy": null
+    },
+    "community_reports": {
+        "llm": {
+            "api_key": "==== REDACTED ====",
+            "type": "azure_openai_chat",
+            "model": "gpt-4o-mini",
+            "max_tokens": 4000,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "n": 1,
+            "request_timeout": 180.0,
+            "api_base": "https://affine-project-us-east.openai.azure.com",
+            "api_version": "2023-03-15-preview",
+            "proxy": null,
+            "cognitive_services_endpoint": null,
+            "deployment_name": "gpt-4o-mini",
+            "model_supports_json": true,
+            "tokens_per_minute": 10000,
+            "requests_per_minute": 50,
+            "max_retries": 10,
+            "max_retry_wait": 10.0,
+            "sleep_on_rate_limit_recommendation": true,
+            "concurrent_requests": 25
+        },
+        "parallelization": {
+            "stagger": 0.3,
+            "num_threads": 50
+        },
+        "async_mode": "threaded",
+        "prompt": "prompts/community_report.txt",
+        "max_length": 2000,
+        "max_input_length": 8000,
+        "strategy": null
+    },
+    "claim_extraction": {
+        "llm": {
+            "api_key": "==== REDACTED ====",
+            "type": "azure_openai_chat",
+            "model": "gpt-4o-mini",
+            "max_tokens": 4000,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "n": 1,
+            "request_timeout": 180.0,
+            "api_base": "https://affine-project-us-east.openai.azure.com",
+            "api_version": "2023-03-15-preview",
+            "proxy": null,
+            "cognitive_services_endpoint": null,
+            "deployment_name": "gpt-4o-mini",
+            "model_supports_json": true,
+            "tokens_per_minute": 10000,
+            "requests_per_minute": 50,
+            "max_retries": 10,
+            "max_retry_wait": 10.0,
+            "sleep_on_rate_limit_recommendation": true,
+            "concurrent_requests": 25
+        },
+        "parallelization": {
+            "stagger": 0.3,
+            "num_threads": 50
+        },
+        "async_mode": "threaded",
+        "enabled": false,
+        "prompt": "prompts/claim_extraction.txt",
+        "description": "Any claims or facts that could be relevant to information discovery.",
+        "max_gleanings": 1,
+        "strategy": null,
+        "encoding_model": null
+    },
+    "cluster_graph": {
+        "max_cluster_size": 10,
+        "strategy": null
+    },
+    "umap": {
+        "enabled": false
+    },
+    "local_search": {
+        "text_unit_prop": 0.5,
+        "community_prop": 0.1,
+        "conversation_history_max_turns": 5,
+        "top_k_entities": 10,
+        "top_k_relationships": 10,
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "n": 1,
+        "max_tokens": 12000,
+        "llm_max_tokens": 2000
+    },
+    "global_search": {
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "n": 1,
+        "max_tokens": 12000,
+        "data_max_tokens": 12000,
+        "map_max_tokens": 1000,
+        "reduce_max_tokens": 2000,
+        "concurrency": 32
+    },
+    "encoding_model": "cl100k_base",
+    "skip_workflows": []
+}
+20:30:16,898 graphrag.index.create_pipeline_config INFO skipping workflows 
+20:30:16,899 graphrag.index.run.run INFO Running pipeline
+20:30:16,899 graphrag.index.storage.file_pipeline_storage INFO Creating file storage at C:\Users\bjorn\OneDrive - University of Twente\School\Affine\affine-graphrag-testing\ragtest\output
+20:30:16,900 graphrag.index.input.load_input INFO loading input from root_dir=input
+20:30:16,900 graphrag.index.input.load_input INFO using file storage for input
+20:30:16,901 graphrag.index.storage.file_pipeline_storage INFO search C:\Users\bjorn\OneDrive - University of Twente\School\Affine\affine-graphrag-testing\ragtest\input for files matching .*\.txt$
+20:30:16,902 graphrag.index.input.text INFO found text files from input, found [('book.txt', {})]
+20:30:16,905 graphrag.index.input.text INFO Found 1 files, loading 1
+20:30:16,906 graphrag.index.workflows.load INFO Workflow Run Order: ['create_base_text_units', 'create_base_extracted_entities', 'create_summarized_entities', 'create_base_entity_graph', 'create_final_entities', 'create_final_nodes', 'create_final_communities', 'create_final_relationships', 'create_final_text_units', 'create_final_community_reports', 'create_base_documents', 'create_final_documents']
+20:30:16,906 graphrag.index.run.run INFO Final # of rows loaded: 1
+20:30:17,42 graphrag.index.run.workflow INFO dependencies for create_base_text_units: []
+20:30:17,47 datashaper.workflow.workflow INFO executing verb orderby
+20:30:17,51 datashaper.workflow.workflow INFO executing verb zip
+20:30:17,54 datashaper.workflow.workflow INFO executing verb aggregate_override
+20:30:17,58 datashaper.workflow.workflow INFO executing verb chunk
+20:30:17,232 datashaper.workflow.workflow INFO executing verb select
+20:30:17,235 datashaper.workflow.workflow INFO executing verb unroll
+20:30:17,239 datashaper.workflow.workflow INFO executing verb rename
+20:30:17,243 datashaper.workflow.workflow INFO executing verb genid
+20:30:17,247 datashaper.workflow.workflow INFO executing verb unzip
+20:30:17,251 datashaper.workflow.workflow INFO executing verb copy
+20:30:17,255 datashaper.workflow.workflow INFO executing verb filter
+20:30:17,266 graphrag.index.emit.parquet_table_emitter INFO emitting parquet table create_base_text_units.parquet
+20:30:17,418 graphrag.index.run.workflow INFO dependencies for create_base_extracted_entities: ['create_base_text_units']
+20:30:17,419 graphrag.utils.storage INFO read table from storage: create_base_text_units.parquet
+20:30:17,436 datashaper.workflow.workflow INFO executing verb entity_extract
+20:30:17,439 graphrag.llm.openai.create_openai_client INFO Creating Azure OpenAI client api_base=https://affine-project-us-east.openai.azure.com, deployment_name=gpt-4o-mini
+20:30:17,617 graphrag.index.llm.load_llm INFO create TPM/RPM limiter for gpt-4o-mini: TPM=10000, RPM=50
+20:30:17,617 graphrag.index.llm.load_llm INFO create concurrency limiter for gpt-4o-mini: 25
+20:30:19,820 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:30:19,823 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "extract-continuation-0" with 0 retries took 2.1869999999180436. input_tokens=34, output_tokens=189
+20:30:19,838 datashaper.workflow.workflow INFO executing verb merge_graphs
+20:30:19,846 graphrag.index.emit.parquet_table_emitter INFO emitting parquet table create_base_extracted_entities.parquet
+20:30:20,6 graphrag.index.run.workflow INFO dependencies for create_summarized_entities: ['create_base_extracted_entities']
+20:30:20,6 graphrag.utils.storage INFO read table from storage: create_base_extracted_entities.parquet
+20:30:20,22 datashaper.workflow.workflow INFO executing verb summarize_descriptions
+20:30:21,26 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:30:21,28 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "summarize" with 0 retries took 0.9840000001713634. input_tokens=298, output_tokens=139
+20:30:21,116 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:30:21,117 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "summarize" with 0 retries took 1.0620000001508743. input_tokens=214, output_tokens=95
+20:30:21,292 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:30:21,294 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "summarize" with 0 retries took 1.25. input_tokens=231, output_tokens=125
+20:30:21,307 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:30:21,308 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "summarize" with 0 retries took 1.2660000000614673. input_tokens=226, output_tokens=118
+20:30:21,315 graphrag.index.emit.parquet_table_emitter INFO emitting parquet table create_summarized_entities.parquet
+20:30:21,460 graphrag.index.run.workflow INFO dependencies for create_base_entity_graph: ['create_summarized_entities']
+20:30:21,461 graphrag.utils.storage INFO read table from storage: create_summarized_entities.parquet
+20:30:21,476 datashaper.workflow.workflow INFO executing verb cluster_graph
+20:30:21,501 datashaper.workflow.workflow INFO executing verb select
+20:30:21,504 graphrag.index.emit.parquet_table_emitter INFO emitting parquet table create_base_entity_graph.parquet
+20:30:21,662 graphrag.index.run.workflow INFO dependencies for create_final_entities: ['create_base_entity_graph']
+20:30:21,664 graphrag.utils.storage INFO read table from storage: create_base_entity_graph.parquet
+20:30:21,681 datashaper.workflow.workflow INFO executing verb unpack_graph
+20:30:21,693 datashaper.workflow.workflow INFO executing verb rename
+20:30:21,701 datashaper.workflow.workflow INFO executing verb select
+20:30:21,709 datashaper.workflow.workflow INFO executing verb dedupe
+20:30:21,716 datashaper.workflow.workflow INFO executing verb rename
+20:30:21,725 datashaper.workflow.workflow INFO executing verb filter
+20:30:21,743 datashaper.workflow.workflow INFO executing verb text_split
+20:30:21,752 datashaper.workflow.workflow INFO executing verb drop
+20:30:21,761 datashaper.workflow.workflow INFO executing verb merge
+20:30:21,777 datashaper.workflow.workflow INFO executing verb text_embed
+20:30:21,778 graphrag.llm.openai.create_openai_client INFO Creating Azure OpenAI client api_base=https://affine-project-us-east.openai.azure.com, deployment_name=text-embedding-3-small
+20:30:21,943 graphrag.index.llm.load_llm INFO create TPM/RPM limiter for text-embedding-3-small: TPM=10000, RPM=50
+20:30:21,943 graphrag.index.llm.load_llm INFO create concurrency limiter for text-embedding-3-small: 25
+20:30:21,946 graphrag.index.verbs.text.embed.strategies.openai INFO embedding 54 inputs via 54 snippets using 4 batches. max_batch_size=16, max_tokens=8191
+20:30:22,381 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+20:30:22,385 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+20:30:22,450 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+20:30:22,462 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+20:30:22,538 graphrag.llm.base.rate_limiting_llm INFO perf - llm.embedding "Process" with 0 retries took 0.5780000002123415. input_tokens=148, output_tokens=0
+20:30:22,640 graphrag.llm.base.rate_limiting_llm INFO perf - llm.embedding "Process" with 0 retries took 0.6880000000819564. input_tokens=412, output_tokens=0
+20:30:22,659 graphrag.llm.base.rate_limiting_llm INFO perf - llm.embedding "Process" with 0 retries took 0.7030000002123415. input_tokens=820, output_tokens=0
+20:30:22,676 graphrag.llm.base.rate_limiting_llm INFO perf - llm.embedding "Process" with 0 retries took 0.7190000000409782. input_tokens=558, output_tokens=0
+20:30:22,714 datashaper.workflow.workflow INFO executing verb drop
+20:30:22,724 datashaper.workflow.workflow INFO executing verb filter
+20:30:22,741 graphrag.index.emit.parquet_table_emitter INFO emitting parquet table create_final_entities.parquet
+20:30:22,974 graphrag.index.run.workflow INFO dependencies for create_final_nodes: ['create_base_entity_graph']
+20:30:22,975 graphrag.utils.storage INFO read table from storage: create_base_entity_graph.parquet
+20:30:22,997 datashaper.workflow.workflow INFO executing verb layout_graph
+20:30:23,31 datashaper.workflow.workflow INFO executing verb unpack_graph
+20:30:23,46 datashaper.workflow.workflow INFO executing verb unpack_graph
+20:30:23,60 datashaper.workflow.workflow INFO executing verb drop
+20:30:23,81 datashaper.workflow.workflow INFO executing verb filter
+20:30:23,104 datashaper.workflow.workflow INFO executing verb select
+20:30:23,116 datashaper.workflow.workflow INFO executing verb rename
+20:30:23,126 datashaper.workflow.workflow INFO executing verb convert
+20:30:23,166 datashaper.workflow.workflow INFO executing verb join
+20:30:23,183 datashaper.workflow.workflow INFO executing verb rename
+20:30:23,186 graphrag.index.emit.parquet_table_emitter INFO emitting parquet table create_final_nodes.parquet
+20:30:23,362 graphrag.index.run.workflow INFO dependencies for create_final_communities: ['create_base_entity_graph']
+20:30:23,363 graphrag.utils.storage INFO read table from storage: create_base_entity_graph.parquet
+20:30:23,391 datashaper.workflow.workflow INFO executing verb create_final_communities
+20:30:23,411 graphrag.index.emit.parquet_table_emitter INFO emitting parquet table create_final_communities.parquet
+20:30:23,596 graphrag.index.run.workflow INFO dependencies for create_final_relationships: ['create_base_entity_graph', 'create_final_nodes']
+20:30:23,597 graphrag.utils.storage INFO read table from storage: create_base_entity_graph.parquet
+20:30:23,601 graphrag.utils.storage INFO read table from storage: create_final_nodes.parquet
+20:30:23,633 datashaper.workflow.workflow INFO executing verb create_final_relationships_pre_embedding
+20:30:23,653 datashaper.workflow.workflow INFO executing verb create_final_relationships_post_embedding
+20:30:23,659 graphrag.index.emit.parquet_table_emitter INFO emitting parquet table create_final_relationships.parquet
+20:30:23,864 graphrag.index.run.workflow INFO dependencies for create_final_text_units: ['create_base_text_units', 'create_final_entities', 'create_final_relationships']
+20:30:23,865 graphrag.utils.storage INFO read table from storage: create_base_text_units.parquet
+20:30:23,870 graphrag.utils.storage INFO read table from storage: create_final_entities.parquet
+20:30:23,876 graphrag.utils.storage INFO read table from storage: create_final_relationships.parquet
+20:30:23,906 datashaper.workflow.workflow INFO executing verb create_final_text_units_pre_embedding
+20:30:23,926 datashaper.workflow.workflow INFO executing verb select
+20:30:23,931 graphrag.index.emit.parquet_table_emitter INFO emitting parquet table create_final_text_units.parquet
+20:30:24,108 graphrag.index.run.workflow INFO dependencies for create_final_community_reports: ['create_final_nodes', 'create_final_relationships']
+20:30:24,109 graphrag.utils.storage INFO read table from storage: create_final_nodes.parquet
+20:30:24,115 graphrag.utils.storage INFO read table from storage: create_final_relationships.parquet
+20:30:24,144 datashaper.workflow.workflow INFO executing verb prepare_community_reports_nodes
+20:30:24,159 datashaper.workflow.workflow INFO executing verb prepare_community_reports_edges
+20:30:24,175 datashaper.workflow.workflow INFO executing verb restore_community_hierarchy
+20:30:24,193 datashaper.workflow.workflow INFO executing verb prepare_community_reports
+20:30:24,194 graphrag.index.verbs.graph.report.prepare_community_reports INFO Number of nodes at level=1 => 54
+20:30:24,215 graphrag.index.verbs.graph.report.prepare_community_reports INFO Number of nodes at level=0 => 54
+20:30:24,253 datashaper.workflow.workflow INFO executing verb create_community_reports
+20:30:24,364 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:30:24,364 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:30:24,365 graphrag.llm.base.rate_limiting_llm WARNING create_community_report failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 54 seconds. Follow recommendation? True
+20:30:24,365 graphrag.llm.base.rate_limiting_llm WARNING create_community_report failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 54 seconds. Follow recommendation? True
+20:31:24,788 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:31:24,792 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "create_community_report" with 1 retries took 5.015000000130385. input_tokens=2554, output_tokens=816
+20:31:25,955 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:31:25,956 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "create_community_report" with 1 retries took 6.2969999997876585. input_tokens=3672, output_tokens=932
+20:31:26,77 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:31:26,77 graphrag.llm.base.rate_limiting_llm WARNING create_community_report failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 55 seconds. Follow recommendation? True
+20:31:38,913 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:31:38,914 graphrag.llm.base.rate_limiting_llm WARNING create_community_report failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 42 seconds. Follow recommendation? True
+20:31:53,27 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:31:53,27 graphrag.llm.base.rate_limiting_llm WARNING create_community_report failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 28 seconds. Follow recommendation? True
+20:32:08,628 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:32:08,629 graphrag.llm.base.rate_limiting_llm WARNING create_community_report failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 12 seconds. Follow recommendation? True
+20:32:27,586 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:32:27,588 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "create_community_report" with 1 retries took 5.436999999918044. input_tokens=2600, output_tokens=734
+20:32:52,425 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:32:52,426 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "create_community_report" with 1 retries took 4.5780000002123415. input_tokens=2090, output_tokens=592
+20:33:04,924 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:33:04,924 graphrag.llm.base.rate_limiting_llm WARNING create_community_report failed to invoke LLM 2/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 18 seconds. Follow recommendation? True
+20:33:26,285 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:33:26,286 graphrag.llm.base.rate_limiting_llm WARNING create_community_report failed to invoke LLM 3/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 22 seconds. Follow recommendation? True
+20:33:31,229 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:33:31,231 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "create_community_report" with 1 retries took 6.969000000040978. input_tokens=2555, output_tokens=783
+20:33:59,912 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:33:59,914 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "create_community_report" with 3 retries took 6.969000000040978. input_tokens=2350, output_tokens=670
+20:34:24,805 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 429 Too Many Requests"
+20:34:24,806 graphrag.llm.base.rate_limiting_llm WARNING create_community_report failed to invoke LLM 1/10 attempts. Cause: rate limit exceeded, will retry. Recommended sleep for 29 seconds. Follow recommendation? True
+20:35:02,443 httpx INFO HTTP Request: POST https://affine-project-us-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview "HTTP/1.1 200 OK"
+20:35:02,444 graphrag.llm.base.rate_limiting_llm INFO perf - llm.chat "create_community_report" with 1 retries took 6.905999999959022. input_tokens=4071, output_tokens=798
+20:35:02,477 datashaper.workflow.workflow INFO executing verb window
+20:35:02,481 graphrag.index.emit.parquet_table_emitter INFO emitting parquet table create_final_community_reports.parquet
+20:35:02,672 graphrag.index.run.workflow INFO dependencies for create_base_documents: ['create_final_text_units']
+20:35:02,673 graphrag.utils.storage INFO read table from storage: create_final_text_units.parquet
+20:35:02,707 datashaper.workflow.workflow INFO executing verb unroll
+20:35:02,723 datashaper.workflow.workflow INFO executing verb select
+20:35:02,738 datashaper.workflow.workflow INFO executing verb rename
+20:35:02,753 datashaper.workflow.workflow INFO executing verb join
+20:35:02,774 datashaper.workflow.workflow INFO executing verb aggregate_override
+20:35:02,790 datashaper.workflow.workflow INFO executing verb join
+20:35:02,809 datashaper.workflow.workflow INFO executing verb rename
+20:35:02,825 datashaper.workflow.workflow INFO executing verb convert
+20:35:02,847 graphrag.index.emit.parquet_table_emitter INFO emitting parquet table create_base_documents.parquet
+20:35:03,29 graphrag.index.run.workflow INFO dependencies for create_final_documents: ['create_base_documents']
+20:35:03,30 graphrag.utils.storage INFO read table from storage: create_base_documents.parquet
+20:35:03,67 datashaper.workflow.workflow INFO executing verb rename
+20:35:03,71 graphrag.index.emit.parquet_table_emitter INFO emitting parquet table create_final_documents.parquet
+20:35:03,137 graphrag.index.cli INFO All workflows completed successfully.
