@@ -1,0 +1,661 @@
+
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION
+
+Washington, D.C. 20549
+
+FORM 10-Q
+
+(Mark One)
+
+☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the quarterly period ended June 29, 2024 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to . Commission File Number: 001-36743 Apple Inc.
+
+(Exact name of Registrant as specified in its charter)
+
+California
+
+(State or other jurisdiction of incorporation or organization)
+
+One Apple Park Way Cupertino, California
+
+(Address of principal executive offices)
+
+94-2404110
+
+(I.R.S. Employer Identification No.)
+
+95014
+
+(Zip Code)
+
+(408) 996-1010
+
+(Registrant’s telephone number, including area code)
+
+Securities registered pursuant to Section 12(b) of the Act:
+This table lists the securities registered by Apple Inc. pursuant to Section 12(b) of the Securities Exchange Act of 1934. It provides information on the title of each class of security, its trading symbol (if any), and the exchange on which it is registered. The table includes common stock and various notes with different maturity dates and interest rates, all of which are registered on The Nasdaq Stock Market LLC. 
+
+<table><thead><tr><th>Title of each class</th><th>Tradin symbol(s)</th><th>Name of each exchange on which registered</th></tr></thead><tbody><tr><td>Common Stock, $0.00001 par value per share</td><td>AAPL</td><td>The Nasdaq Stock Market LLC</td></tr><tr><td>0.000% Notes due 2025</td><td>—</td><td>The Nasdaq Stock Market LLC</td></tr><tr><td>0.875% Notes due 2025</td><td>—</td><td>The Nasdaq Stock Market LLC</td></tr><tr><td>1.625% Notes due 2026</td><td>—</td><td>The Nasdaq Stock Market LLC</td></tr><tr><td>2.000% Notes due 2027</td><td>—</td><td>The Nasdaq Stock Market LLC</td></tr><tr><td>1.375% Notes due 2029</td><td>—</td><td>The Nasdaq Stock Market LLC</td></tr><tr><td>3.050% Notes due 2029</td><td>—</td><td>The Nasdaq Stock Market LLC</td></tr><tr><td>0.500% Notes due 2031</td><td>—</td><td>The Nasdaq Stock Market LLC</td></tr><tr><td>3.600% Notes due 2042</td><td>—</td><td>The Nasdaq Stock Market LLC</td></tr></tbody></table>
+Indicate by check mark whether the Registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the Registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. Yes ☒ No ☐ Indicate by check mark whether the Registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the Registrant was required to submit such files). Yes ☒ No ☐
+
+Indicate by check mark whether the Registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act. Large accelerated filer ☒ Accelerated filer Non-accelerated filer ☐ Smaller reporting company Emerging growth company If an emerging growth company, indicate by check mark if the Registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐ Indicate by check mark whether the Registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). Yes ☐ No ☒ 15,204,137,000 shares of common stock were issued and outstanding as of July 19, 2024. ☐ ☐ ☐
+
+Apple Inc.
+
+Form 10-Q
+
+For the Fiscal Quarter Ended June 29, 2024 TABLE OF CONTENTS
+This table provides a Table of Contents for the Fiscal Quarter Ended June 29, 2024 report. It lists each item within the report along with its corresponding page number. The table is organized into two columns: "Item" and "Page". The "Item" column lists the different sections of the report, while the "Page" column indicates the starting page number for each section. 
+
+<table><thead><tr><th></th><th>Part |</th><th>Page</th></tr></thead><tbody><tr><td>ltem 1</td><td>Financial Statements</td><td>1</td></tr><tr><td>em 2</td><td>Management'’s Discussion and Analysis of Financial Condition and Results of Operations</td><td>13</td></tr><tr><td>ltem 3</td><td>Quantitative and Qualitative Disclosures About Market Risk</td><td>18</td></tr><tr><td>em 4</td><td>Controls and Procedures Part Il</td><td>18</td></tr><tr><td>ltem 1</td><td>Legal Proceedings</td><td>19</td></tr><tr><td>em 1A.</td><td>Risk Factors</td><td>19</td></tr><tr><td>ltem 2</td><td>Unregistered Sales of Equity Securities and Use of Proceeds</td><td>20</td></tr><tr><td>em 3</td><td>Defaults Upon Senior Securities</td><td>20</td></tr><tr><td>ltem 4</td><td>Mine Safety Disclosures</td><td>20</td></tr><tr><td>em 5</td><td>Other Information</td><td>20</td></tr><tr><td>ltem 6</td><td>Exhibits</td><td>21</td></tr></tbody></table>
+Item 1. Financial Statements
+
+Apple Inc.
+
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS (Unaudited)
+
+(In millions, except number of shares, which are reflected in thousands, and per-share amounts)
+The table presents the Condensed Consolidated Statements of Operations for a company, comparing financial performance for the three months ended June 29, 2024, and July 1, 2023, as well as for the nine months ended on those dates. It breaks down key financial metrics, including net sales, cost of sales, gross margin, operating expenses, operating income, other income, income before provision for income taxes, provision for income taxes, net income, and earnings per share.  The table also includes the number of shares used in calculating earnings per share for both basic and diluted shares. All figures are presented in millions of dollars, except for the number of shares which are in thousands and per-share amounts. 
+
+<table><thead><tr><th></th><th colspan="2">Three Months Ended</th><th colspan="2">Nine Months Ended</th></tr><tr><th></th><th>June 29, 2024</th><th>July 1, 2023</th><th>June 29, 2024</th><th>July 1, 2023</th></tr></thead><tbody><tr><td colspan="5">Net sales:</td></tr><tr><td>Products</td><td>61,564 $</td><td>60,584</td><td>$ 224,908</td><td>$ 230,901</td></tr><tr><td>Services</td><td>24,213</td><td>21,213</td><td>71,197</td><td>62,886</td></tr><tr><td>Total net sales</td><td>85,777</td><td>81,797</td><td>296,105</td><td>293,787</td></tr><tr><td colspan="5">Cost of sales:</td></tr><tr><td>Products</td><td>39,803</td><td>39,136</td><td>140,667</td><td>146,696</td></tr><tr><td>Services</td><td>6,296</td><td>6,248</td><td>18,634</td><td>18,370</td></tr><tr><td>Total cost of sales</td><td>46,099</td><td>45,384</td><td>159,301</td><td>165,066</td></tr><tr><td>Gross margin</td><td>39,678</td><td>36,413</td><td>136,804</td><td>128,721</td></tr><tr><td colspan="5">Operating expenses:</td></tr><tr><td>Research and development</td><td>8,006</td><td>7,442</td><td>23,605</td><td>22,608</td></tr><tr><td>Selling, general and administrative</td><td>6,320</td><td>5,973</td><td>19,574</td><td>18,781</td></tr><tr><td>Total operating expenses</td><td>14,326</td><td>13,415</td><td>43,179</td><td>41,389</td></tr><tr><td>Operating income</td><td>25,352</td><td>22,998</td><td>93,625</td><td>87,332</td></tr><tr><td>Other income/(expense), net</td><td>142</td><td>(265)</td><td>250</td><td>(594)</td></tr><tr><td>Income before provision for income taxes</td><td>25,494</td><td>22,733</td><td>93,875</td><td>86,738</td></tr><tr><td>Provision for income taxes</td><td>4,046</td><td>2,852</td><td>14,875</td><td>12,699</td></tr><tr><td>Net income</td><td>21,448 $</td><td>19,881</td><td>79,000</td><td>74,039</td></tr><tr><td colspan="5">Earnings per share:</td></tr><tr><td>Basic</td><td>© 1.40</td><td>1.27</td><td>5.13</td><td>4.69</td></tr><tr><td>Diluted</td><td>© 1.40</td><td>1.26</td><td>5.11</td><td>4.67</td></tr><tr><td colspan="5">Shares used in computing earnings per share:</td></tr><tr><td>Basic</td><td>15,287,521</td><td>15,697,614</td><td>15,401,047</td><td>15,792,497</td></tr><tr><td>Diluted</td><td>15,348,175</td><td>15,775,021</td><td>15,463,175</td><td>15,859,263</td></tr></tbody></table>
+See accompanying Notes to Condensed Consolidated Financial Statements.
+
+Apple Inc.
+
+CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (Unaudited)
+
+(In millions)
+This table presents the Condensed Consolidated Statements of Comprehensive Income for a company, comparing the three months ended June 29, 2024, and July 1, 2023, as well as the nine months ended June 29, 2024, and July 1, 2023. It breaks down the company's comprehensive income into net income and other comprehensive income (loss), providing a detailed view of the components contributing to the overall financial performance. 
+
+The table shows that the company's net income increased from $19,881 million in the three months ended July 1, 2023, to $21,448 million in the three months ended June 29, 2024. Similarly, the nine-month net income increased from $74,039 million to $79,000 million. 
+
+The "Other Comprehensive Income/(Loss)" section details changes in foreign currency translation, unrealized gains/losses on derivative instruments, and unrealized gains/losses on marketable debt securities, all net of tax. By presenting these components separately, the table provides a clear view of the factors impacting the company's comprehensive income beyond its core operations.
+
+<table><thead><tr><th></th><th colspan="2">Three Months Ended</th><th colspan="2">Nine Months Ended</th></tr><tr><th></th><th>June 29, 2024</th><th>July 1, 2023</th><th>June 29, 2024</th><th>July 1, 2023</th></tr></thead><tbody><tr><td>Net income</td><td>21,448 $</td><td>$ 19,881</td><td>$ 79,000</td><td>$ 74,039</td></tr><tr><td colspan="5">Other comprehensive income/(loss):</td></tr><tr><td>Change in foreign currency translation, net of tax</td><td>(73)</td><td>(385)</td><td>(87)</td><td>(494)</td></tr><tr><td colspan="5">Change in unrealized gains/losses on derivative instruments, net of tax:</td></tr><tr><td>Change in fair value of derivative instruments</td><td>406</td><td>509</td><td>331</td><td>(492)</td></tr><tr><td>Adjustment for net (gains)/losses realized and included in net income</td><td>(87)</td><td>103</td><td>(678)</td><td>(1,854)</td></tr><tr><td>Total change in unrealized gains/losses on derivative instruments</td><td>319</td><td>612</td><td>(347)</td><td>(2,346)</td></tr><tr><td colspan="5">Change in unrealized gains/losses on marketable debt securities, net of tax:</td></tr><tr><td>Change in fair value of marketable debt securities</td><td>268</td><td>(340)</td><td>3,306</td><td>1,963</td></tr><tr><td>Adjustment for net (gains)/losses realized and included in net income</td><td>30</td><td>58</td><td>164</td><td>185</td></tr><tr><td>Total change in unrealized gains/losses on marketable debt securities</td><td>298</td><td>(282)</td><td>3,470</td><td>2,148</td></tr><tr><td>Total other comprehensive income/(loss)</td><td>544</td><td>(55)</td><td>3,036</td><td>(692)</td></tr><tr><td>Total comprehensive income</td><td>21,992 $</td><td>$ 19,826</td><td>$ 82,036</td><td>$ 73,347</td></tr></tbody></table>
+See accompanying Notes to Condensed Consolidated Financial Statements.
+
+Apple Inc. CONDENSED CONSOLIDATED BALANCE SHEETS (Unaudited)
+
+(In millions, except number of shares, which are reflected in thousands, and par value)
+This table presents Apple Inc.'s condensed consolidated balance sheet for the fiscal periods ending June 29, 2024 and September 30, 2023.  It showcases the company's assets, categorized as current and non-current, with values reported in millions of dollars.  The table provides a snapshot of Apple's financial health by revealing the composition of its assets and their changes over the two reporting periods. 
+
+<table><thead><tr><th></th><th>ASSETS:</th><th>June 29, 2024</th><th>September 30, 202</th></tr></thead><tbody><tr><td colspan="4">Current assets:</td></tr><tr><td>Cash and cash equivalents</td><td></td><td>25,565 $</td><td>29,965</td></tr><tr><td>Marketable securities</td><td></td><td>36,236</td><td>31,590</td></tr><tr><td>Accounts receivable, net</td><td></td><td>22,795</td><td>29,508</td></tr><tr><td>Vendor non-trade receivables</td><td></td><td>20,377</td><td>31,477</td></tr><tr><td>Inventories</td><td></td><td>6,165</td><td>6,331</td></tr><tr><td>Other current assets</td><td></td><td>14,297</td><td>14,695</td></tr><tr><td>Total current assets</td><td></td><td>125,435</td><td>143,566</td></tr><tr><td colspan="4">Non-current assets:</td></tr><tr><td>Marketable securities</td><td></td><td>91,240</td><td>100,544</td></tr><tr><td>Property, plant and equipment, net</td><td></td><td>44,502</td><td>43,715</td></tr><tr><td>Other non-current assets</td><td></td><td>70,435</td><td>64,758</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>Total non-current assets</td><td></td><td>206,177</td><td>209,017</td></tr></tbody></table>This table presents a portion of Apple Inc.'s consolidated balance sheet for the fiscal years ending June 29, 2024, and September 30, 2023. It specifically focuses on the company's non-current assets, which include marketable securities, property, plant and equipment (net), and other non-current assets. The table displays the value of each asset category for both fiscal years, with the total for all non-current assets and the overall total assets for each year listed at the bottom.  All figures are presented in millions of dollars. 
+
+<table><tbody><tr><td>Marketable securities</td><td>91,240</td><td>100,544</td></tr><tr><td>Property, plant and equipment, net</td><td>44,502</td><td>43,715</td></tr><tr><td>Other non-current assets</td><td>70,435</td><td>64,758</td></tr><tr><td>Total non-current assets</td><td>206,177</td><td>209,017</td></tr><tr><td>Total assets</td><td>$ 331,612</td><td>$ 352,583</td></tr></tbody></table>
+LIABILITIES AND SHAREHOLDERS’ EQUITY:
+
+Current liabilities:
+This table presents a breakdown of current liabilities for a company, comparing the figures for two different periods (likely years). The table lists five categories of current liabilities: accounts payable, other current liabilities, deferred revenue, commercial paper, and term debt.  For each category, the table shows the value in dollars for both periods. The final row shows the total current liabilities for each period. 
+
+<table><thead><tr><th>Accounts payable</th><th>47,574 $</th><th>$ 62,611</th></tr></thead><tbody><tr><td>Other current liabilities</td><td>60,889</td><td>58,829</td></tr><tr><td>Deferred revenue</td><td>8,053</td><td>8,061</td></tr><tr><td>Commercial paper</td><td>2,994</td><td>5,985</td></tr><tr><td>Term debt</td><td>12,114</td><td>9,822</td></tr><tr><td>Total current liabilities</td><td>131,624</td><td>145,308</td></tr></tbody></table>This table presents a breakdown of a company's liabilities, separated into current and non-current categories. It shows the balance of each liability category for two different periods, likely representing two consecutive fiscal years. 
+
+The table starts with a summary of current liabilities, including accounts payable, other current liabilities, deferred revenue, commercial paper, and term debt. It then details non-current liabilities, which include term debt and other non-current liabilities. 
+
+Finally, the table provides the total liabilities for each period, summing up the current and non-current liabilities. This allows for a clear understanding of the company's overall debt obligations and how they have changed over time. 
+
+<table><tbody><tr><td colspan="3">Non-current liabilities:</td></tr><tr><td>Term debt</td><td>86,196</td><td>95,281</td></tr><tr><td>Other non-current liabilities</td><td>47,084</td><td>49,848</td></tr><tr><td>Total non-current liabilities</td><td>133,280</td><td>145,129</td></tr><tr><td>Total liabilities</td><td>264,904</td><td>290,437</td></tr></tbody></table>
+Commitments and contingencies
+
+Shareholders’ equity:
+This table presents the breakdown of a company's liabilities and shareholders' equity for two different periods, likely representing the current year and the previous year. 
+
+The table is divided into three main sections: 
+
+* **Liabilities:** This section details the company's current and non-current liabilities, categorized by type and showing the amount for each category in both periods. 
+* **Shareholders' Equity:** This section breaks down the company's shareholders' equity into its components: common stock and additional paid-in capital, accumulated deficit, accumulated other comprehensive loss, and total shareholders' equity. 
+* **Total Liabilities and Shareholders' Equity:** This final row presents the sum of the liabilities and shareholders' equity, representing the company's total assets.
+
+The table provides a clear and concise overview of the company's financial structure, allowing users to analyze its debt levels, equity composition, and overall financial health over time. 
+
+<table><thead><tr><th>Common stock and additional paid-in capital, $0.00001 par value: 50,400,000 shares authorized; 15,222,259 and 15,550,061 shares issued and outstanding, respectively</th><th>79,850</th><th>73,812</th></tr></thead><tbody><tr><td>Accumulated deficit</td><td>(4,726)</td><td>(214)</td></tr><tr><td>Accumulated other comprehensive loss</td><td>(8,416)</td><td>(11,452)</td></tr><tr><td>Total shareholders’ equity</td><td>66,708</td><td>62,146</td></tr><tr><td>Total liabilities and shareholders’ equity</td><td>$ 331,612</td><td>§ 352,583</td></tr></tbody></table>
+See accompanying Notes to Condensed Consolidated Financial Statements.
+
+Apple Inc.
+
+CONDENSED CONSOLIDATED STATEMENTS OF SHAREHOLDERS’ EQUITY (Unaudited)
+
+(In millions, except per-share amounts)
+This table presents the Condensed Consolidated Statements of Shareholders' Equity for a company, showing changes in equity for both the three months ended June 29, 2024 and July 1, 2023, as well as the nine months ended June 29, 2024 and July 1, 2023. The table is presented in millions of dollars, except for per-share amounts.
+
+The table is organized into three main sections: Common stock and additional paid-in capital, Retained earnings/(Accumulated deficit), and Accumulated other comprehensive income/(loss). Each section lists beginning balances, various adjustments, and ending balances for both the three-month and nine-month periods. 
+
+For example, in the "Common stock and additional paid-in capital" section, the beginning balances are shown for both periods, followed by adjustments such as common stock issued, share-based compensation, and common stock withheld related to net share settlement of awards. The ending balances are then calculated as the sum of the beginning balances and adjustments.
+
+The table also includes information on dividends and dividend equivalents declared, common stock repurchased, and other comprehensive income/(loss). This information provides a detailed breakdown of the changes in shareholders' equity over the periods presented. 
+
+<table><thead><tr><th></th><th colspan="2">Three Months Ended</th><th colspan="2">Nine Months Ended</th></tr><tr><th>Total shareholders’ equity, beginning balances</th><th>June 29, 2024
+ 74,194 $</th><th>July 1, 2023
+ 62,158</th><th>June 29, 2024
+ $ 62,146</th><th>July 1, 2023
+ $ 50,672</th></tr></thead><tbody><tr><td colspan="5">Common stock and additional paid-in capital:</td></tr><tr><td>Beginning balances</td><td>78,815</td><td>69,568</td><td>73,812</td><td>64,849</td></tr><tr><td>Common stock issued</td><td>—</td><td>—</td><td>752</td><td>690</td></tr><tr><td>Common stock withheld related to net share settlement of awards</td><td></td><td></td><td></td><td></td></tr><tr><td>equity Share-based compensation</td><td>(1,920) 2,955</td><td>(1,595) 2,694</td><td>(3,802) 9,088</td><td>(3,310) 
+ 8,438</td></tr><tr><td>Ending balances</td><td>79,850</td><td>70,667</td><td>79,850</td><td>70,667</td></tr><tr><td colspan="5">Retained earnings/(Accumulated deficit):</td></tr><tr><td>Beginning balances</td><td>4,339</td><td>4,336</td><td>(214)</td><td>(3,068)</td></tr><tr><td>Net income</td><td>21,448</td><td>19,881</td><td>79,000</td><td>74,039</td></tr><tr><td>Dividends and dividend equivalents declared</td><td>(3,864)</td><td>(3,811)</td><td>(11,384)</td><td>(11,207)</td></tr><tr><td>Common stock withheld related to net share settlement of equity awards</td><td>(428)</td><td>(858)</td><td>(1,517)</td><td>(1,988)</td></tr><tr><td>Common stock repurchased</td><td>(26,221)</td><td>(18,140)</td><td>(70,611)</td><td>(56,368)</td></tr><tr><td>Ending balances</td><td>(4,726)</td><td>1,408</td><td>(4,726)</td><td>1,408</td></tr><tr><td colspan="5">Accumulated other comprehensive income/(loss):</td></tr><tr><td>Beginning balances</td><td>(8,960)</td><td>(11,746)</td><td>(11,452)</td><td>(11,109)</td></tr><tr><td>Other comprehensive income/(loss)</td><td>544</td><td>(55)</td><td>3,036</td><td>(692)</td></tr><tr><td>Ending balances</td><td>(8,416)</td><td>(11,801)</td><td>(8,416)</td><td>(11,801)</td></tr><tr><td>Total shareholders’ equity, ending balances</td><td>66,708 $</td><td>$ 60,274</td><td>$ 66,708</td><td>$ 60,274</td></tr><tr><td>Nividende and dividend eaiiivalante declared nar ehare ar RS</td><td>0N 25</td><td>no4</td><td>¢ N7</td><td>¢ 0 70</td></tr></tbody></table>
+Dividends and dividend equivalents declared per share or RSU $
+
+See accompanying Notes to Condensed Consolidated Financial Statements.
+
+Apple Inc. CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited)
+
+(In millions)
+This table presents Apple Inc.'s Condensed Consolidated Statements of Cash Flows for the nine-month periods ending June 29, 2024 and July 1, 2023 (in millions of dollars). It details the company's cash flow activities categorized into three sections: operating, investing, and financing. 
+
+For each category, the table shows the individual components that contribute to the net cash flow generated or used. For example, under operating activities, it includes net income, adjustments to reconcile net income to cash flow, and changes in operating assets and liabilities. Similarly, investing activities include details like purchases and sales of marketable securities, payments for property, plant, and equipment, and other investing activities. Financing activities encompass payments for taxes, dividends, stock repurchases, debt issuance and repayments, and other financing activities. 
+
+The table concludes with the net increase or decrease in cash, cash equivalents, and restricted cash for each period, as well as the ending balances for both periods. It also includes a supplemental cash flow disclosure, though the content of that section is not clear from the provided information. 
+
+<table><thead><tr><th></th><th colspan="2">Nine Months Ended</th></tr><tr><th></th><th>June 29, 2024</th><th>July 1, 2023</th></tr></thead><tbody><tr><td>Cash, cash equivalents and restricted cash, beginning balances</td><td>30,737 $</td><td>$ 24,977</td></tr><tr><td colspan="3">Operating activities:</td></tr><tr><td colspan="3">Net income 79,000 
+ 74,039</td></tr><tr><td colspan="3">Adjustments to reconcile net income to cash generated by operating activities:</td></tr><tr><td>Depreciation and amortization</td><td>8,534</td><td>8,866</td></tr><tr><td>Share-based compensation expense</td><td>8,830</td><td>8,208</td></tr><tr><td>Other</td><td>(1,964)</td><td>(1,651)</td></tr><tr><td colspan="3">Changes in operating assets and liabilities:</td></tr><tr><td>Accounts receivable, net</td><td>6,697</td><td>7,609</td></tr><tr><td>Vendor non-trade receivables</td><td>11,100</td><td>13,111</td></tr><tr><td>Inventories</td><td>41</td><td>(2,570)</td></tr><tr><td>Other current and non-current assets</td><td>(5,626)</td><td>(4,863)</td></tr><tr><td>Accounts payable</td><td>(15,171)</td><td>(16,790)</td></tr><tr><td>Other current and non-current liabilities</td><td>2</td><td>2,986</td></tr><tr><td>Cash generated by operating activities</td><td>91,443</td><td>88,945</td></tr><tr><td colspan="3">Investing activities:</td></tr><tr><td>Purchases of marketable securities</td><td></td><td></td></tr><tr><td></td><td>(38,074)</td><td>(20,956)</td></tr><tr><td>Proceeds from maturities of marketable securities</td><td>39,838</td><td>27,857</td></tr><tr><td></td><td></td><td></td></tr><tr><td>Proceeds from sales of marketable securities</td><td>7,382</td><td>3,959</td></tr><tr><td></td><td></td><td></td></tr><tr><td>for of and</td><td></td><td></td></tr><tr><td>Payments acquisition property, plant equipment</td><td>(6,539)</td><td>(8,796)</td></tr><tr><td>Other</td><td>(1,117)</td><td>(753)</td></tr><tr><td>Cash generated by investing activities</td><td>1,490</td><td>1,311</td></tr><tr><td>Payments for taxes related to net share settlement of equity awards</td><td>(5,163)</td><td>(5,119)</td></tr><tr><td>Payments for dividends and dividend equivalents</td><td>(11,430)</td><td>(11,267)</td></tr><tr><td>Repurchases of common stock</td><td>(69,866)</td><td>(56,547)</td></tr><tr><td>Proceeds from issuance of term debt, net</td><td>—</td><td>5,228</td></tr><tr><td>Repayments of term debt</td><td>(7,400)</td><td>(11,151)</td></tr><tr><td>Repayments of commercial paper, net</td><td>(2,985)</td><td>(5,971)</td></tr><tr><td>Other</td><td>(191)</td><td>(508)</td></tr><tr><td>Cash used in financing activities</td><td>(97,035)</td><td>(85,335)</td></tr><tr><td colspan="3">Increase/(Decrease) in cash, cash equivalents and restricted cash (4,102) 4,921</td></tr><tr><td>Cash, cash equivalents and restricted cash, ending balances</td><td>26,635 $</td><td>$ 29,898</td></tr><tr><td colspan="3">Supplemental cash flow disclosure:</td></tr><tr><td>~ L +ar . Y</td><td>P</td><td>“~ —- A~~~</td></tr></tbody></table>
+Cash paid for income taxes, net
+
+See accompanying Notes to Condensed Consolidated Financial Statements.
+
+7,020
+
+Apple Inc. Notes to Condensed Consolidated Financial Statements (Unaudited)
+
+Note 1 – Summary of Significant Accounting Policies
+
+Basis of Presentation and Preparation
+
+The condensed consolidated financial statements include the accounts of Apple Inc. and its wholly owned subsidiaries (collectively “Apple” or the “Company”). In the opinion of the Company’s management, the condensed consolidated financial statements reflect all adjustments, which are normal and recurring in nature, necessary for fair financial statement presentation. The preparation of these condensed consolidated financial statements and accompanying notes in conformity with U.S. generally accepted accounting principles (“GAAP”) requires the use of management estimates. These condensed consolidated financial statements and accompanying notes should be read in conjunction with the Company’s annual consolidated financial statements and accompanying notes included in its Annual Report on Form 10-K for the fiscal year ended September 30, 2023 (the “2023 Form 10-K”).
+
+The Company’s fiscal year is the 52- or 53-week period that ends on the last Saturday of September. An additional week is included in the first fiscal quarter every five or six years to realign the Company’s fiscal quarters with calendar quarters, which occurred in the first fiscal quarter of 2023. The Company’s fiscal years 2024 and 2023 span 52 and 53 weeks, respectively. Unless otherwise stated, references to particular years, quarters, months and periods refer to the Company’s fiscal years ended in September and the associated quarters, months and periods of those fiscal years.
+
+Note 2 – Revenue
+
+Net sales disaggregated by significant products and services for the three- and nine-month periods ended June 29, 2024 and July 1, 2023 were as follows (in millions):
+This table presents Apple's net sales disaggregated by product and service categories for the three-month and nine-month periods ending June 29, 2024 and July 1, 2023, respectively. The table shows revenue figures in millions of dollars. The rows represent different product and service categories, including iPhone, Mac, iPad, Wearables, Home and Accessories, and Services. The columns represent the two time periods: three months ended June 29, 2024 and July 1, 2023, and nine months ended June 29, 2024 and July 1, 2023. The table provides a breakdown of Apple's revenue performance across its key product and service categories for the specified time periods. 
+
+<table><thead><tr><th></th><th colspan="2">Three Months Ended</th><th colspan="2">Nine Months Ended</th></tr><tr><th></th><th>June 29, 2024</th><th>July 1, 2023</th><th>June 29, 2024</th><th>July 1, 2023</th></tr></thead><tbody><tr><td>iPhone®</td><td>$ 39,296</td><td>$ 39,669</td><td>$ 154,961</td><td>$ 156,778</td></tr><tr><td>Mac®</td><td>7,009</td><td>6,840</td><td>22,240</td><td>21,743</td></tr><tr><td>iPad®</td><td>7,162</td><td>5,791</td><td>19,744</td><td>21,857</td></tr><tr><td>Wearables, Home and Accessories</td><td>8,097</td><td>8,284</td><td>27,963</td><td>30,523</td></tr><tr><td>Services</td><td>24,213</td><td>21,213</td><td>71,197</td><td>62,886</td></tr><tr><td>Total net sales</td><td>85,777 $</td><td>$ 81,797</td><td>$ 296,105</td><td>§ 293,787</td></tr></tbody></table>
+Total net sales include $3.4 billion of revenue recognized in the three months ended June 29, 2024 that was included in deferred revenue as of March 30, 2024, $3.3 billion of revenue recognized in the three months ended July 1, 2023 that was included in deferred revenue as of April 1, 2023, $6.5 billion of revenue recognized in the nine months ended June 29, 2024 that was included in deferred revenue as of September 30, 2023, and $7.0 billion of revenue recognized in the nine months ended July 1, 2023 that was included in deferred revenue as of September 24, 2022.
+
+The Company’s proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in Note 11, “Segment Information and Geographic Data” for the three- and nine-month periods ended June 29, 2024 and July 1, 2023, except in Greater China, where iPhone revenue represented a moderately higher proportion of net sales.
+
+As of June 29, 2024 and September 30, 2023, the Company had total deferred revenue of $12.5 billion and $12.1 billion, respectively. As of June 29, 2024, the Company expects 64% of total deferred revenue to be realized in less than a year, 25% within one-to-two years, 9% within two-to-three years and 2% in greater than three years.
+
+Note 3 – Earnings Per Share
+
+The following table shows the computation of basic and diluted earnings per share for the three- and nine-month periods ended June 29, 2024 and July 1, 2023 (net income in millions and shares in thousands):
+This table presents the calculation of basic and diluted earnings per share for the three- and nine-month periods ending June 29, 2024, and July 1, 2023. It breaks down the calculation into two components: the numerator (net income) and the denominator (weighted-average shares outstanding). For both basic and diluted earnings per share, the table shows the net income, weighted-average basic shares outstanding, effect of dilutive share-based awards, weighted-average diluted shares, and the final calculated earnings per share for each period. The data is presented in millions for net income and in thousands for shares outstanding. 
+
+<table><thead><tr><th></th><th colspan="2">Three Months Ended</th><th colspan="2">Nine Months Ended</th></tr><tr><th></th><th>June 29, 2024</th><th>July 1, 2023</th><th>June 29, 2024</th><th>July 1, 2023</th></tr></thead><tbody><tr><td colspan="5">Numerator:</td></tr><tr><td>Net income</td><td>$ 21,448</td><td>$ 19,881</td><td>$ 79,000</td><td>$ 74,039</td></tr><tr><td colspan="5">Denominator:</td></tr><tr><td>Weighted-average basic shares outstanding</td><td>15,287,521</td><td>15,697,614</td><td>15,401,047</td><td>15,792,497</td></tr><tr><td>Effect of dilutive share-based awards</td><td>60,654</td><td>77,407</td><td>62,128</td><td>66,766</td></tr><tr><td>Weighted-average diluted shares</td><td>15,348,175</td><td>15,775,021</td><td>15,463,175</td><td>15,859,263</td></tr><tr><td>Basic earnings per share</td><td>1.40 $</td><td>1.27</td><td>5.13</td><td>4.69</td></tr><tr><td>Diluted earnings per share</td><td>1.40 $</td><td>1.26</td><td>5.1</td><td>4.67</td></tr></tbody></table>
+Approximately 32 million restricted stock units (“RSUs”) were excluded from the computation of diluted earnings per share for the nine months ended July 1, 2023 because their effect would have been antidilutive.
+
+Note 4 – Financial Instruments
+
+Cash, Cash Equivalents and Marketable Securities
+
+The following tables show the Company’s cash, cash equivalents and marketable securities by significant investment category as of June 29, 2024 and September 30, 2023 (in millions):
+This table presents a breakdown of the company's cash, cash equivalents, and marketable securities as of June 29, 2024. It categorizes these assets by investment type, including cash, money market funds, mutual funds, U.S. Treasury securities, U.S. agency securities, non-U.S. government securities, certificates of deposit, commercial paper, corporate debt securities, municipal securities, and mortgage- and asset-backed securities. The table shows the adjusted cost, unrealized gains and losses, fair value, and allocation of each asset category into cash and cash equivalents, current marketable securities, and non-current marketable securities. The table also includes subtotals for Level 1 and Level 2 investments, and a total for all assets. All values are presented in millions of dollars. 
+
+<table><thead><tr><th></th><th colspan="7">June 29, 2024</th></tr><tr><th></th><th>Adjusted
+ _— Cost</th><th>Unrealized Gains</th><th>Unrealized Losses</th><th>Fair Value</th><th>Cash and Cash Equivalents</th><th>Current
+ Marketable Securities</th><th>Non-Current
+ Marketable Securities</th></tr></thead><tbody><tr><td>Cash</td><td>$ 22866</td><td>$</td><td>—  $</td><td>$ 22,866</td><td>Y 22,866</td><td>—  $</td><td>—</td></tr><tr><td colspan="8">Level 1:</td></tr><tr><td>Money market funds</td><td>1,648</td><td>—</td><td>—</td><td>1,648</td><td>1,648</td><td>—</td><td>—</td></tr><tr><td>Mutual funds</td><td>493 -</td><td>76</td><td>(7</td><td>562</td><td>—</td><td>562</td><td>—</td></tr><tr><td>Subtotal</td><td>2,141</td><td>- 76</td><td>@)</td><td>2,210</td><td>1,648</td><td>562</td><td>—</td></tr><tr><td colspan="8">Level 2 ™</td></tr><tr><td>U.S. Treasury securities</td><td>16,298</td><td>3</td><td>(855)</td><td>15,446</td><td>138</td><td>4,649</td><td>10,659</td></tr><tr><td>U.S. agency securities</td><td>5,500</td><td>—</td><td>(418)</td><td>5,082</td><td>73</td><td>518</td><td>4,491</td></tr><tr><td>Non-U.S. government securities</td><td>17,560</td><td>31</td><td>(680)</td><td>16,911</td><td>—</td><td>11,592</td><td>5,319</td></tr><tr><td>Certificates of deposit and time deposits</td><td>1,337</td><td>—</td><td>—</td><td>1,337</td><td>838</td><td>492</td><td>7</td></tr><tr><td>Commercial paper</td><td>1,346</td><td>—</td><td>—</td><td>1,346</td><td>2</td><td>1,344</td><td>—</td></tr><tr><td>Corporate debt securities</td><td>68,194</td><td>83</td><td>(3,350)</td><td>64,927</td><td>—</td><td>15,489</td><td>49,438</td></tr><tr><td>Municipal securities</td><td>480</td><td>—</td><td>(13 3</td><td>467</td><td>—</td><td>197</td><td>270</td></tr><tr><td>Mortgage- and asset-backed securities</td><td>24,508</td><td>27</td><td>(2,086)</td><td>22,449</td><td>—</td><td>1,393</td><td>21,056</td></tr><tr><td>Subtotal</td><td>- _— 135,223</td><td>144</td><td>U, (7,402)</td><td>127,965</td><td>e 1,051</td><td>35,674</td><td>91,240</td></tr><tr><td>Total @</td><td>Ly JedeEsy $ 160,230</td><td>t =ee $ 220</td><td>W WLERR) @, 7,409</td><td>) JeRlea $ 153,041</td><td>B SIeey 25,565</td><td>8 Shieey 36,236 ————</td><td>91,240</td></tr></tbody></table>This table presents a breakdown of Apple Inc.'s cash, cash equivalents, and marketable securities as of June 29, 2024, and September 30, 2023, in millions of dollars. 
+
+It categorizes these assets into two levels: Level 1 and Level 2. Level 1 includes highly liquid investments like money market funds and mutual funds, while Level 2 encompasses less liquid investments like U.S. Treasury securities, U.S. agency securities, and corporate debt securities. 
+
+The table provides information on the adjusted cost, unrealized gains and losses, fair value, and allocation between cash and cash equivalents, current marketable securities, and non-current marketable securities. 
+
+The table allows users to analyze the composition of Apple Inc.'s investment portfolio and track changes in the fair value of these assets over time. 
+
+<table><thead><tr><th></th><th colspan="7">September 30, 2023</th></tr><tr><th></th><th>Adjusted
+ Cost
+ _—</th><th>Unrealized Gains</th><th>Unrealized Losses</th><th>Fair Value</th><th>Cash and Cash Equivalents</th><th>Current Marketable Securities</th><th>Non-Current Marketable Securities</th></tr></thead><tbody><tr><td>Cash</td><td>$ 28359</td><td>§</td><td>—  $</td><td>$ 28,359</td><td>28,359</td><td>—  $</td><td>—</td></tr><tr><td colspan="8">Level 1:</td></tr><tr><td>Money market funds</td><td>481</td><td>—</td><td>—</td><td>481</td><td>481</td><td>—</td><td>—</td></tr><tr><td>Mutual funds and equity securities</td><td>442 -</td><td>12</td><td>(26)</td><td>428</td><td>—</td><td>428</td><td>—</td></tr><tr><td>Subtotal</td><td>923</td><td>12</td><td>U (26)</td><td>909</td><td>481</td><td>428</td><td>—</td></tr><tr><td colspan="8">Level 2 ™</td></tr><tr><td>U.S. Treasury securities</td><td>19,406</td><td>—</td><td>(1,292)</td><td>18,114</td><td>35</td><td>5,468</td><td>12,611</td></tr><tr><td>U.S. agency securities</td><td>5,736</td><td>—</td><td>(600)</td><td>5,136</td><td>36</td><td>271</td><td>4,829</td></tr><tr><td>Non-U.S. government securities</td><td>17,533</td><td>6</td><td>(1,048)</td><td>16,491</td><td>—</td><td>11,332</td><td>5,159</td></tr><tr><td>Certificates of deposit and time deposits</td><td>1,354</td><td>—</td><td>—</td><td>1,354</td><td>1,034</td><td>320</td><td>—</td></tr><tr><td>Commercial paper</td><td>608</td><td>—</td><td>—</td><td>608</td><td>—</td><td>608</td><td>—</td></tr><tr><td>Corporate debt securities</td><td>76,840</td><td>6</td><td>(5,956)</td><td>70,890</td><td>20</td><td>12,627</td><td>58,243</td></tr><tr><td>Municipal securities</td><td>628</td><td>—</td><td>(26 3</td><td>602</td><td>—</td><td>192</td><td>410</td></tr><tr><td>Mortgage- and asset-backed securities</td><td>22,365</td><td>6</td><td>U (2,735)</td><td>19,636</td><td>—</td><td>344</td><td>19,292</td></tr><tr><td>Subtotal</td><td>- 144,470 _—</td><td>18</td><td>= (11,657)</td><td>132,831</td><td>1,125 e</td><td>31,162</td><td>100,544</td></tr><tr><td>Total @</td><td>—_—— $ 173752</td><td>30 AR §</td><td>A (11,683)</td><td>A $ 162,099</td><td>29,965</td><td>31,590 A</td><td>100,544</td></tr></tbody></table>
+(1) The valuation techniques used to measure the fair values of the Company’s Level 2 financial instruments, which generally have counterparties with high credit ratings, are based on quoted market prices or model-driven valuations using significant inputs derived from or corroborated by observable market data.
+
+(2) As of June 29, 2024 and September 30, 2023, total marketable securities included $14.1 billion and $13.8 billion, respectively, that were restricted from general use, related to the State Aid Decision (refer to Note 6, “Income Taxes”) and other agreements.
+
+The following table shows the fair value of the Company’s non-current marketable debt securities, by contractual maturity, as of June 29, 2024 (in millions):
+The table shows the fair value of the company's non-current marketable debt securities, categorized by their contractual maturity, as of June 29, 2024. It lists the fair value of securities maturing in different timeframes: those maturing after 1 to 5 years, 5 to 10 years, and those maturing after 10 years. The total fair value of all non-current marketable debt securities as of June 29, 2024, is $91,240 million. 
+
+<table><tbody><tr><td>Due after 1 year through 5 years</td><td>$ 64,209</td></tr><tr><td>Due after 5 years through 10 years</td><td>8,660</td></tr><tr><td>Due after 10 years</td><td>18,371</td></tr><tr><td>Total fair value</td><td>$ 91,240</td></tr></tbody></table>
+Derivative Instruments and Hedging
+
+The Company may use derivative instruments to partially offset its business exposure to foreign exchange and interest rate risk. However, the Company may choose not to hedge certain exposures for a variety of reasons, including accounting considerations or the prohibitive economic cost of hedging particular exposures. There can be no assurance the hedges will offset more than a portion of the financial impact resulting from movements in foreign exchange or interest rates.
+
+Foreign Exchange Rate Risk
+
+To protect gross margins from fluctuations in foreign exchange rates, the Company may use forwards, options or other instruments, and may designate these instruments as cash flow hedges. The Company generally hedges portions of its forecasted foreign currency exposure associated with revenue and inventory purchases, typically for up to 12 months.
+
+To protect the Company’s foreign currency–denominated term debt or marketable securities from fluctuations in foreign exchange rates, the Company may use forwards, cross-currency swaps or other instruments. The Company designates these instruments as either cash flow or fair value hedges. As of June 29, 2024, the maximum length of time over which the Company is hedging its exposure to the variability in future cash flows for term debt–related foreign currency transactions is 18 years.
+
+The Company may also use derivative instruments that are not designated as accounting hedges to protect gross margins from certain fluctuations in foreign exchange rates, as well as to offset a portion of the foreign currency gains and losses generated by the remeasurement of certain assets and liabilities denominated in non-functional currencies.
+
+Interest Rate Risk
+
+To protect the Company’s term debt or marketable securities from fluctuations in interest rates, the Company may use interest rate swaps, options or other instruments. The Company designates these instruments as either cash flow or fair value hedges.
+
+The notional amounts of the Company’s outstanding derivative instruments as of June 29, 2024 and September 30, 2023 were as follows (in millions):
+This table displays the notional amounts of the Company's outstanding derivative instruments as of June 29, 2024 and September 30, 2023, categorized by their designation as accounting hedges and their type (foreign exchange or interest rate contracts).  The table shows that the company had a total of $178,553 million in derivative instruments designated as accounting hedges in June 2024, compared to $194,105 million in September 2023. The company also had $97,136 million in foreign exchange contracts not designated as accounting hedges in June 2024, compared to $104,777 million in September 2023. All amounts are in millions of dollars. 
+
+<table><thead><tr><th></th><th>June 29, 2024</th><th>September 30, 202</th></tr></thead><tbody><tr><td colspan="3">Derivative instruments designated as accounting hedges:</td></tr><tr><td>Foreign exchange contracts</td><td>© 65,542</td><td>$ 74,730</td></tr><tr><td>Interest rate contracts</td><td>© 13,875</td><td>$ 19,375</td></tr><tr><td colspan="3">Derivative instruments not designated as accounting hedges:</td></tr><tr><td>Foreign exchange contracts</td><td>97,136 $</td><td>$ 104,777</td></tr></tbody></table>
+The carrying amounts of the Company’s hedged items in fair value hedges as of June 29, 2024 and September 30, 2023 were as follows (in millions):
+The table displays the carrying amounts of the Company's hedged items in fair value hedges as of June 29, 2024 and September 30, 2023. It lists the hedged assets and liabilities, which include current and non-current marketable securities and current and non-current term debt, along with their corresponding carrying amounts in millions of dollars for both dates.  The table shows that the company had a net positive carrying amount in hedged assets for both periods. 
+
+<table><thead><tr><th></th><th>June 29, 2024</th><th>September 30, 202</th></tr></thead><tbody><tr><td colspan="3">Hedged assets/(liabilities):</td></tr><tr><td>Current and non-current marketable securities</td><td>15,007 $</td><td>$ 14,433</td></tr><tr><td>Current and non-current term debt</td><td>$ (13,096)</td><td>$ (18,247)</td></tr></tbody></table>
+Accounts Receivable
+
+Trade Receivables
+
+The Company’s third-party cellular network carriers accounted for 32% and 41% of total trade receivables as of June 29, 2024 and September 30, 2023, respectively. The Company requires third-party credit support or collateral from certain customers to limit credit risk.
+
+Vendor Non-Trade Receivables
+
+The Company has non-trade receivables from certain of its manufacturing vendors resulting from the sale of components to these vendors who manufacture subassemblies or assemble final products for the Company. The Company purchases these components directly from suppliers. The Company does not reflect the sale of these components in products net sales. Rather, the Company recognizes any gain on these sales as a reduction of products cost of sales when the related final products are sold by the Company. As of June 29, 2024, the Company had two vendors that individually represented 10% or more of total vendor non-trade receivables, which accounted for 46% and 18%. As of September 30, 2023, the Company had two vendors that individually represented 10% or more of total vendor non-trade receivables, which accounted for 48% and 23%.
+
+Note 5 – Condensed Consolidated Financial Statement Details
+
+The following table shows the Company’s condensed consolidated financial statement details as of June 29, 2024 and September 30, 2023 (in millions):
+
+Property, Plant and Equipment, Net
+This table presents the balance sheet line item "Property, Plant and Equipment, Net" for two different dates: June 29, 2024 and September 30, 202*. The table shows the gross value of property, plant and equipment, the accumulated depreciation, and the resulting net value.  The net value is calculated by subtracting the accumulated depreciation from the gross value. The table shows a slight decrease in the net value of property, plant and equipment from June 29, 2024 to September 30, 202*. 
+
+<table><thead><tr><th></th><th>June 29, 2024</th><th>September 30, 202</th></tr></thead><tbody><tr><td>Gross property, plant and equipment</td><td>$ 117,129</td><td>$ 114,599</td></tr><tr><td>Accumulated depreciation</td><td>(72,627)</td><td>(70,884)</td></tr><tr><td>Total property, plant and equipment, net</td><td>$ 44,502</td><td>$ 43,715</td></tr></tbody></table>
+Note 6 – Income Taxes
+
+European Commission State Aid Decision
+
+On August 30, 2016, the European Commission (the “Commission”) announced its decision that Ireland granted state aid to the Company by providing tax opinions in 1991 and 2007 concerning the tax allocation of profits of the Irish branches of two subsidiaries of the Company (the “State Aid Decision”). The State Aid Decision ordered Ireland to calculate and recover additional taxes from the Company for the period June 2003 through December 2014. Irish legislative changes, effective as of January 2015, eliminated the application of the tax opinions from that date forward. The Company and Ireland appealed the State Aid Decision to the General Court of the Court of Justice of the European Union (the “General Court”). On July 15, 2020, the General Court annulled the State Aid Decision. On September 25, 2020, the Commission appealed the General Court’s decision to the European Court of Justice (the “ECJ”) and a hearing was held on May 23, 2023. A decision from the ECJ is expected in the fourth quarter of 2024. The Company believes it would be eligible to claim a U.S. foreign tax credit for a portion of any incremental Irish corporate income taxes potentially due related to the State Aid Decision.
+
+Note 7 – Debt
+
+Commercial Paper
+
+The Company issues unsecured short-term promissory notes pursuant to a commercial paper program. The Company uses net proceeds from the commercial paper program for general corporate purposes, including dividends and share repurchases. As of June 29, 2024 and September 30, 2023, the Company had $3.0 billion and $6.0 billion of commercial paper outstanding, respectively. The following table provides a summary of cash flows associated with the issuance and maturities of commercial paper for the nine months ended June 29, 2024 and July 1, 2023 (in millions):
+This table summarizes the cash flows associated with the issuance and maturities of commercial paper for the nine months ended June 29, 2024 and July 1, 2023. It breaks down the repayments of commercial paper by maturity period (90 days or less and greater than 90 days) and shows the total repayments for each period.  The table shows that the company repaid $2.985 billion in commercial paper during the nine months ended June 29, 2024, while it repaid $5.971 billion during the nine months ended July 1, 2023. The table also shows that the company had no repayments of commercial paper with a maturity greater than 90 days during the nine months ended June 29, 2024. 
+
+<table><thead><tr><th></th><th colspan="2">Nine Months Ended</th></tr><tr><th></th><th>June 29, 2024</th><th>July 1, 2023</th></tr></thead><tbody><tr><td colspan="3">Maturities 90 days or less:</td></tr><tr><td>Repayments of commercial paper, net</td><td>$ (2,985)</td><td>$ (3,326)</td></tr><tr><td colspan="3">Maturities greater than 90 days:</td></tr><tr><td>Repayments of commercial paper</td><td>—</td><td>(2,645)</td></tr><tr><td>Total repayments of commercial paper, net</td><td>$ (2,985)</td><td>$ (5,971)</td></tr></tbody></table>
+Term Debt
+
+As of June 29, 2024 and September 30, 2023, the Company had outstanding fixed-rate notes with varying maturities for an aggregate carrying amount of $98.3 billion and $105.1 billion, respectively (collectively the “Notes”). As of June 29, 2024 and September 30, 2023, the fair value of the Company’s Notes, based on Level 2 inputs, was $86.2 billion and $90.8 billion, respectively.
+
+Note 8 – Shareholders’ Equity
+
+Share Repurchase Program
+
+During the nine months ended June 29, 2024, the Company repurchased 387 million shares of its common stock for $70.0 billion. The Company’s share repurchase programs do not obligate the Company to acquire a minimum amount of shares. Under the programs, shares may be repurchased in privately negotiated or open market transactions, including under plans complying with Rule 10b5-1 under the Securities Exchange Act of 1934, as amended (the “Exchange Act”).
+
+Note 9 – Share-Based Compensation
+
+Restricted Stock Units
+
+A summary of the Company’s RSU activity and related information for the nine months ended June 29, 2024 is as follows:
+This table summarizes the Company's Restricted Stock Unit (RSU) activity for the nine months ending June 29, 2024. It tracks the number of RSUs (in thousands), the weighted-average grant date fair value per RSU, and the aggregate fair value (in millions). The table shows the balance of RSUs as of September 30, 2023, and then details the changes in RSUs due to grants, vesting, and cancellations during the period. Finally, it presents the balance of RSUs as of June 29, 2024, along with the total aggregate fair value of the outstanding RSUs. 
+
+<table><thead><tr><th></th><th>Number of RSUs (in thousands)</th><th>Weighted-Average
+ Grant Date Fair Value Per RSU</th><th>Aggregate
+ Fair Value (in millions)</th></tr></thead><tbody><tr><td>Balance as of September 30, 2023</td><td>180,247</td><td>$ 135.91</td><td></td></tr><tr><td>RSUs granted</td><td>78276</td><td>$ 172.26</td><td></td></tr><tr><td>RSUs vested</td><td>(83,842)</td><td>$ 126.47</td><td></td></tr><tr><td>RSUs canceled</td><td>(8,258)</td><td>$ 137.85</td><td></td></tr><tr><td>Balance as of June 29, 2024</td><td>166,423</td><td>$ 157.66</td><td>$ 35,052</td></tr></tbody></table>
+The fair value as of the respective vesting dates of RSUs was $6.4 billion and $15.0 billion for the three- and nine-month periods ended June 29, 2024, respectively, and was $7.0 billion and $14.9 billion for the three- and nine-month periods ended July 1, 2023, respectively.
+
+Share-Based Compensation
+
+The following table shows share-based compensation expense and the related income tax benefit included in the Condensed Consolidated Statements of Operations for the three- and nine-month periods ended June 29, 2024 and July 1, 2023 (in millions):
+This table presents the share-based compensation expense and the associated income tax benefit for the company, reported for both the three-month and nine-month periods ending on June 29, 2024 and July 1, 2023.  The table shows a breakdown of these expenses, with the "Share-based compensation expense" row indicating the total expense incurred, and the "Income tax benefit related to share-based compensation expense" row showing the tax savings associated with these expenses. All values are presented in millions of dollars. 
+
+<table><thead><tr><th></th><th colspan="2">Three Months Ended</th><th colspan="2">Nine Months Ended</th></tr><tr><th></th><th>June 29, 2024</th><th>July 1, 2023</th><th>June 29, 2024</th><th>July 1, 2023</th></tr></thead><tbody><tr><td>Share-based compensation expense</td><td>$ 2,869</td><td>$ 2617</td><td>$ 8,830</td><td>$ 8,208</td></tr><tr><td>Income tax benefit related to share-based compensation expense</td><td>$ (764)</td><td>$ (993)</td><td>$ (2,662)</td><td>$ (2,791)</td></tr></tbody></table>
+As of June 29, 2024, the total unrecognized compensation cost related to outstanding RSUs was $21.9 billion, which the Company expects to recognize over a weighted-average period of 2.6 years.
+
+Note 10 – Contingencies
+
+The Company is subject to various legal proceedings and claims that have arisen in the ordinary course of business and that have not been fully resolved. The outcome of litigation is inherently uncertain. In the opinion of management, there was not at least a reasonable possibility the Company may have incurred a material loss, or a material loss greater than a recorded accrual, concerning loss contingencies for asserted legal and other claims.
+
+Note 11 – Segment Information and Geographic Data
+
+The following table shows information by reportable segment for the three- and nine-month periods ended June 29, 2024 and July 1, 2023 (in millions):
+This table presents segment information and geographic data for a company, broken down by reportable segment and region. It shows net sales and operating income for the three-month periods ended June 29, 2024, and July 1, 2023, as well as the nine-month periods ended June 29, 2024, and July 1, 2023. The table covers five regions: Americas, Europe, Greater China, Japan, and Rest of Asia Pacific. The figures are presented in millions of dollars. 
+
+<table><thead><tr><th></th><th colspan="2">Three Months Ended</th><th colspan="2">Nine Months Ended</th></tr><tr><th></th><th>June 29, 2024</th><th>July 1, 2023</th><th>June 29, 2024</th><th>July 1, 2023</th></tr></thead><tbody><tr><td colspan="5">Americas:</td></tr><tr><td>Net sales</td><td>© 37,678</td><td>© 35,383</td><td>125,381</td><td>$ 122,445</td></tr><tr><td>Operating income</td><td>15,209 $</td><td>13,117</td><td>50,640</td><td>44,908</td></tr><tr><td colspan="5">Europe:</td></tr><tr><td>Net sales</td><td>© 21,884</td><td>© 20,205</td><td>76,404</td><td>71,831</td></tr><tr><td>Operating income</td><td>© 9,170</td><td>© 7,995</td><td>31,872</td><td>27,380</td></tr><tr><td colspan="5">Greater China:</td></tr><tr><td>Net sales</td><td>© 14,728</td><td>© 15,758</td><td>51,919</td><td>57,475</td></tr><tr><td>Operating income</td><td>© 5,562</td><td>© 6,207</td><td>20,884</td><td>24,175</td></tr><tr><td colspan="5">Japan:</td></tr><tr><td>Net sales</td><td>5,097 $</td><td>4,821</td><td>19,126</td><td>18,752</td></tr><tr><td>Operating income</td><td>2,544 $</td><td>2,443</td><td>9,498</td><td>9,073</td></tr><tr><td colspan="5">Rest of Asia Pacific:</td></tr><tr><td>Net sales</td><td>6,390 $</td><td>5,630</td><td>23,275</td><td>23,284</td></tr><tr><td>Operating income</td><td>2,610 $</td><td>2,328</td><td>©«@ 9,995</td><td>©«@ 9,447</td></tr></tbody></table>
+A reconciliation of the Company’s segment operating income to the Condensed Consolidated Statements of Operations for the three- and nine-month periods ended June 29, 2024 and July 1, 2023 is as follows (in millions):
+This table presents a reconciliation of the company's segment operating income to its consolidated statements of operations for the three and nine months ended June 29, 2024 and July 1, 2023. It shows the breakdown of segment operating income, research and development expense, and other corporate expenses, net, for both periods. The table provides a total operating income figure for both timeframes. All figures are presented in millions of dollars.  
+
+<table><thead><tr><th></th><th colspan="2">Three Months Ended</th><th colspan="2">Nine Months Ended</th></tr><tr><th></th><th>June 29, 2024</th><th>July 1, 2023</th><th>June 29, 2024</th><th>July 1, 2023</th></tr></thead><tbody><tr><td>Segment operating income</td><td>$ 35,095</td><td>$ 32,090</td><td>$ 122,889</td><td>$ 114,983</td></tr><tr><td>Research and development expense</td><td>(8,006)</td><td>(7,442)</td><td>(23,605)</td><td>(22,608)</td></tr><tr><td>Other corporate expenses, net</td><td>(1,737)</td><td>(1,650)</td><td>(5,659)</td><td>(5,043)</td></tr><tr><td>Total operating income</td><td>$ 25,352</td><td>$ 22,998</td><td>$ 93,625</td><td>$ 87,332</td></tr></tbody></table>
+Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations
+
+This Item and other sections of this Quarterly Report on Form 10-Q (“Form 10-Q”) contain forward-looking statements, within the meaning of the Private Securities Litigation Reform Act of 1995, that involve risks and uncertainties. Forward-looking statements provide current expectations of future events based on certain assumptions and include any statement that does not directly relate to any historical or current fact. For example, statements in this Form 10-Q regarding the potential future impact of macroeconomic conditions on the Company’s business and results of operations are forward-looking statements. Forward-looking statements can also be identified by words such as “future,” “anticipates,” “believes,” “estimates,” “expects,” “intends,” “plans,” “predicts,” “will,” “would,” “could,” “can,” “may,” and similar terms. Forward-looking statements are not guarantees of future performance and the Company’s actual results may differ significantly from the results discussed in the forward-looking statements. Factors that might cause such differences include, but are not limited to, those discussed in Part I, Item 1A of the 2023 Form 10-K and Part II, Item 1A of this Form 10-Q, in each case under the heading “Risk Factors.” The Company assumes no obligation to revise or update any forward-looking statements for any reason, except as required by law.
+
+Unless otherwise stated, all information presented herein is based on the Company’s fiscal calendar, and references to particular years, quarters, months or periods refer to the Company’s fiscal years ended in September and the associated quarters, months and periods of those fiscal years.
+
+The following discussion should be read in conjunction with the 2023 Form 10-K filed with the U.S. Securities and Exchange Commission (the “SEC”) and the condensed consolidated financial statements and accompanying notes included in Part I, Item 1 of this Form 10-Q.
+
+Available Information
+
+The Company periodically provides certain information for investors on its corporate website, www.apple.com, and its investor relations website, investor.apple.com. This includes press releases and other information about financial performance, information on environmental, social and governance matters, and details related to the Company’s annual meeting of shareholders. The information contained on the websites referenced in this Form 10-Q is not incorporated by reference into this filing. Further, the Company’s references to website URLs are intended to be inactive textual references only.
+
+Business Seasonality and Product Introductions
+
+The Company has historically experienced higher net sales in its first quarter compared to other quarters in its fiscal year due in part to seasonal holiday demand. Additionally, new product and service introductions can significantly impact net sales, cost of sales and operating expenses. The timing of product introductions can also impact the Company’s net sales to its indirect distribution channels as these channels are filled with new inventory following a product launch, and channel inventory of an older product often declines as the launch of a newer product approaches. Net sales can also be affected when consumers and distributors anticipate a product introduction.
+
+During the third quarter of 2024, the Company announced the following product and operating system updates:
+
+iPad Air®;
+
+iPad Pro®;
+
+iOS 18, macOS® Sequoia, iPadOS® 18, watchOS® 11, visionOS™ 2 and tvOS® 18.
+
+The Company also announced Apple Intelligence™, a personal intelligence system that uses generative models, which will be available on certain iPhone, Mac and iPad devices. Apple Intelligence is deeply integrated into iOS 18, macOS Sequoia and iPadOS 18.
+
+Fiscal Period
+
+The Company’s fiscal year is the 52- or 53-week period that ends on the last Saturday of September. An additional week is included in the first fiscal quarter every five or six years to realign the Company’s fiscal quarters with calendar quarters, which occurred in the first quarter of 2023. The Company’s fiscal years 2024 and 2023 span 52 and 53 weeks, respectively.
+
+Macroeconomic Conditions
+
+Macroeconomic conditions, including inflation, interest rates and currency fluctuations, have directly and indirectly impacted, and could in the future materially impact, the Company’s results of operations and financial condition.
+
+Segment Operating Performance
+
+The following table shows net sales by reportable segment for the three- and nine-month periods ended June 29, 2024 and July 1, 2023 (dollars in millions):
+This table presents net sales by reportable segment for the company, broken down by region (Americas, Europe, Greater China, Japan, and Rest of Asia Pacific). It shows the sales figures for both the three-month period ending June 29, 2024 and the nine-month period ending June 29, 2024, as well as the corresponding figures for the prior year periods (July 1, 2023 and July 1, 2023 respectively).  The table also includes the percentage change in sales for each region and for the total net sales. 
+
+<table><thead><tr><th></th><th colspan="3">Three Months Ended</th><th colspan="3">Nine Months Ended</th></tr><tr><th></th><th>June 29, _— 2024</th><th>July 1, 2023</th><th>Change</th><th>June 29, 2024</th><th>July 1, 2023</th><th>Change</th></tr></thead><tbody><tr><td colspan="7">- Net sales by reportable segment:</td></tr><tr><td>Americas</td><td>37,678 $</td><td>35,383</td><td>6 %</td><td>$ 125,381</td><td>$ 122,445</td><td>2%</td></tr><tr><td>Europe</td><td>21,884</td><td>20,205</td><td>8 %</td><td>76,404</td><td>71,831</td><td>6 %</td></tr><tr><td>Greater China</td><td>14,728</td><td>15,758</td><td>"%</td><td>51,919</td><td>57,475</td><td>(10) %</td></tr><tr><td>Japan</td><td>5,097</td><td>4,821</td><td>6 %</td><td>19,126</td><td>18,752</td><td>2%</td></tr><tr><td>Rest of Asia Pacific</td><td>6,390</td><td>5,630</td><td>13 %</td><td>23,275</td><td>23,284</td><td>— %</td></tr><tr><td>Total net sales</td><td>85,777 $</td><td>81,797</td><td>5%</td><td>$ 296,105</td><td>$ 293,787</td><td>1%</td></tr></tbody></table>
+Americas
+
+Americas net sales increased during the third quarter of 2024 compared to the third quarter of 2023 due primarily to higher net sales of Services and iPad. Year-over-year Americas net sales increased during the first nine months of 2024 due primarily to higher net sales of Services, partially offset by lower net sales of iPhone and Wearables, Home and Accessories. The strength in foreign currencies relative to the U.S. dollar had a net favorable year-over-year impact on Americas net sales during the first nine months of 2024.
+
+Europe
+
+Europe net sales increased during the third quarter of 2024 compared to the third quarter of 2023 due primarily to higher net sales of Services and iPad. The weakness in foreign currencies relative to the U.S. dollar had a net unfavorable year-over-year impact on Europe net sales during the third quarter of 2024. Year-over-year Europe net sales increased during the first nine months of 2024 due primarily to higher net sales of Services and iPhone, partially offset by lower net sales of Wearables, Home and Accessories.
+
+Greater China
+
+Greater China net sales decreased during the third quarter of 2024 compared to the third quarter of 2023 due primarily to lower net sales of iPhone. Year-over-year Greater China net sales decreased during the first nine months of 2024 due primarily to lower net sales of iPhone and iPad. The weakness in the renminbi relative to the U.S. dollar had an unfavorable year-over-year impact on Greater China net sales during the third quarter and first nine months of 2024.
+
+Japan
+
+Japan net sales increased during the third quarter of 2024 compared to the third quarter of 2023 due primarily to higher net sales of iPhone and iPad. Year-over-year Japan net sales increased during the first nine months of 2024 due primarily to higher net sales of iPhone, partially offset by lower net sales of Wearables, Home and Accessories. The weakness in the yen relative to the U.S. dollar had an unfavorable year-over-year impact on Japan net sales during the third quarter and first nine months of 2024.
+
+Rest of Asia Pacific
+
+Rest of Asia Pacific net sales increased during the third quarter of 2024 compared to the third quarter of 2023 due primarily to higher net sales of Services, iPhone and iPad. Year-over-year Rest of Asia Pacific net sales were relatively flat during the first nine months of 2024. The weakness in foreign currencies relative to the U.S. dollar had a net unfavorable year-over-year impact on Rest of Asia Pacific net sales during the third quarter and first nine months of 2024.
+
+Products and Services Performance
+
+The following table shows net sales by category for the three- and nine-month periods ended June 29, 2024 and July 1, 2023 (dollars in millions):
+This table presents the net sales performance of Apple's product categories for the three-month and nine-month periods ending June 29, 2024 and July 1, 2023. It breaks down sales by category, including iPhone, Mac, iPad, Wearables, Home and Accessories, and Services. For each category and period, the table displays the sales figures in millions of dollars for both 2024 and 2023, along with the percentage change between the two years. The table also includes a total net sales row that summarizes the overall performance for each period. 
+
+<table><thead><tr><th></th><th colspan="3">Three Months Ended</th><th colspan="3">Nine Months Ended</th></tr><tr><th></th><th>June 29, _— 2024</th><th>July 1, 2023</th><th>Change</th><th>June 29, 2024</th><th>July 1, 2023</th><th>Change</th></tr></thead><tbody><tr><td colspan="7">- Net sales by category:</td></tr><tr><td>iPhone</td><td>$ 39,296</td><td>39,669</td><td>(1%</td><td>$ 154,961</td><td>$ 156,778</td><td>(1) %</td></tr><tr><td>Mac</td><td>7,009</td><td>6,840</td><td>2%</td><td>22,240</td><td>21,743</td><td>2%</td></tr><tr><td>iPad</td><td>7,162</td><td>5,791</td><td>24 %</td><td>19,744</td><td>21,857</td><td>(10) %</td></tr><tr><td>Wearables, Home and Accessories</td><td>8,097</td><td>8,284</td><td>()%</td><td>27,963</td><td>30,523</td><td>(8) %</td></tr><tr><td>Services</td><td>24,213</td><td>21,213</td><td>14 %</td><td>71,197</td><td>62,886</td><td>13 %</td></tr><tr><td>Total net sales</td><td>$ 85,777</td><td>81,797</td><td>5%</td><td>$ 296,105</td><td>$ 293,787</td><td>1%</td></tr></tbody></table>
+iPhone
+
+iPhone net sales were relatively flat during the third quarter and first nine months of 2024 compared to the same periods in 2023.
+
+Mac
+
+Mac net sales increased during the third quarter and first nine months of 2024 compared to the same periods in 2023 due to higher net sales of laptops.
+
+iPad
+
+iPad net sales increased during the third quarter of 2024 compared to the third quarter of 2023 due primarily to higher net sales of iPad Pro and iPad Air. Year-over-year iPad net sales decreased during the first nine months of 2024 due primarily to lower net sales of iPad 9th generation and iPad Pro, partially offset by higher net sales of iPad 10th generation.
+
+Wearables, Home and Accessories
+
+Wearables, Home and Accessories net sales decreased during the third quarter of 2024 compared to the third quarter of 2023 due primarily to lower net sales of Wearables. Year-over-year Wearables, Home and Accessories net sales decreased during the first nine months of 2024 due primarily to lower net sales of Wearables and Accessories.
+
+Services
+
+Services net sales increased during the third quarter and first nine months of 2024 compared to the same periods in 2023 due primarily to higher net sales from advertising, the App Store® and cloud services.
+
+Gross Margin
+
+Products and Services gross margin and gross margin percentage for the three- and nine-month periods ended June 29, 2024 and July 1, 2023 were as follows (dollars in millions):
+This table presents the gross margin and gross margin percentage for both products and services of a company for the three-month and nine-month periods ending June 29, 2024 and July 1, 2023. It compares the gross margin figures for both periods, displaying the total gross margin for products, services, and overall. All figures are in millions of dollars.  
+
+<table><thead><tr><th></th><th colspan="2">Three Months Ended</th><th colspan="2">Nine Months Ended</th></tr><tr><th></th><th>June 29, 2024</th><th>July 1, 2023</th><th>June 29, 2024</th><th>July 1, 2023</th></tr></thead><tbody><tr><td colspan="5">Gross margin:</td></tr><tr><td>Products</td><td>$ 21,761</td><td>$ 21,448</td><td>$ 84,241</td><td>$ 84,205</td></tr><tr><td>Services</td><td>17,917</td><td>14,965</td><td>52,563</td><td>44,516</td></tr><tr><td>Total gross margin</td><td>$ 39,678</td><td>$ 36,413</td><td>§ 136,804</td><td>$ 128,721</td></tr></tbody></table>
+Gross margin percentage:
+This table presents the gross margin percentage for products, services, and total gross margin for the three- and nine-month periods ended June 29, 2024, and July 1, 2023. The table shows that the gross margin percentage for products has remained relatively stable, while the gross margin percentage for services has increased slightly. The overall gross margin percentage has also increased slightly.  The table provides a breakdown of the gross margin percentage by product and service category, making it easier to understand the performance of each segment. 
+
+<table><tbody><tr><td>Products</td><td>35.3%</td><td>35.4%</td><td>37.5%</td><td>36.5%</td></tr><tr><td>Services</td><td>74.0%</td><td>70.5%</td><td>73.8%</td><td>70.8%</td></tr><tr><td>Total gross margin percentage</td><td>46.3%</td><td>44.5%</td><td>46.2%</td><td>43.8%</td></tr></tbody></table>
+Products Gross Margin
+
+Products gross margin was relatively flat during the third quarter and first nine months of 2024 compared to the same periods in 2023.
+
+Products gross margin percentage was relatively flat during the third quarter of 2024 compared to the third quarter of 2023. Year- over-year Products gross margin percentage increased during the first nine months of 2024 due primarily to cost savings, partially offset by a different Products mix and the weakness in foreign currencies relative to the U.S. dollar.
+
+Services Gross Margin
+
+Services gross margin increased during the third quarter and first nine months of 2024 compared to the same periods in 2023 due primarily to higher Services net sales.
+
+Services gross margin percentage increased during the third quarter and first nine months of 2024 compared to the same periods in 2023 due primarily to a different Services mix.
+
+The Company’s future gross margins can be impacted by a variety of factors, as discussed in Part I, Item 1A of the 2023 Form 10-K and Part II, Item 1A of this Form 10-Q, in each case under the heading “Risk Factors.” As a result, the Company believes, in general, gross margins will be subject to volatility and downward pressure.
+
+Operating Expenses
+
+Operating expenses for the three- and nine-month periods ended June 29, 2024 and July 1, 2023 were as follows (dollars in millions):
+This table presents the operating expenses for a company for the three- and nine-month periods ended June 29, 2024, and July 1, 2023. It breaks down the expenses into two categories: Research and Development and Selling, General, and Administrative. For each category, the table shows the total dollar amount of expenses in millions for both the three-month and nine-month periods, as well as the percentage of total net sales that each category represents.  The table also shows the total operating expenses and the percentage of total net sales for both periods. 
+
+<table><thead><tr><th></th><th colspan="2">Three Months Ended</th><th colspan="2">Nine Months Ended</th></tr><tr><th></th><th>June 29, 2024</th><th>July 1, 2023</th><th>June 29, 2024</th><th>July 1, 2023</th></tr></thead><tbody><tr><td>Research and development</td><td>8,006 $</td><td>$ 7,442</td><td>$ 23,605</td><td>$ 22,608</td></tr><tr><td>Percentage of total net sales</td><td>9%</td><td>9%</td><td>8%</td><td>8%</td></tr><tr><td>Selling, general and administrative</td><td>6,320 
+ $</td><td>$ 5,973</td><td>$ 19,574</td><td>$ 18,781</td></tr><tr><td>Percentage of total net sales</td><td>7%</td><td>7%</td><td>7%</td><td>6%</td></tr><tr><td>Total operating expenses</td><td>14,326 
+ $</td><td>$ 13,415</td><td>$ 43,179</td><td>$ 41,389</td></tr><tr><td>Percentage of total net sales</td><td>17%</td><td>16%</td><td>15%</td><td>14%</td></tr></tbody></table>
+Research and Development
+
+The growth in research and development (“R&D”) expense during the third quarter and first nine months of 2024 compared to the same periods in 2023 was driven primarily by increases in headcount-related expenses.
+
+Selling, General and Administrative
+
+Selling, general and administrative expense increased $347 million during the third quarter of 2024 and $793 million during the first nine months of 2024 compared to the same periods in 2023.
+
+Provision for Income Taxes
+
+Provision for income taxes, effective tax rate and statutory federal income tax rate for the three- and nine-month periods ended June 29, 2024 and July 1, 2023 were as follows (dollars in millions):
+This table presents the provision for income taxes, effective tax rate, and statutory federal income tax rate for the three- and nine-month periods ending June 29, 2024, and July 1, 2023.  The table shows that the provision for income taxes increased from $2,852 million in the three months ended July 1, 2023, to $4,046 million in the three months ended June 29, 2024. Similarly, the provision increased from $12,699 million to $14,875 million for the nine-month periods. The effective tax rate also increased from 12.5% to 15.9% for the three-month period and from 14.6% to 15.8% for the nine-month period. The statutory federal income tax rate remained consistent at 21% for all periods. 
+
+<table><thead><tr><th></th><th colspan="2">Three Months Ended</th><th colspan="2">Nine Months Ended</th></tr><tr><th></th><th>June 29, 2024</th><th>July 1, 2023</th><th>June 29, 2024</th><th>July 1, 2023</th></tr></thead><tbody><tr><td>Provision for income taxes</td><td>$ 4,046</td><td>$ 2,852</td><td>$ 14,875</td><td>$ 12,699</td></tr><tr><td>Effective tax rate</td><td>15.9%</td><td>12.5%</td><td>15.8%</td><td>14.6%</td></tr><tr><td>Statutory federal income tax rate</td><td>21%</td><td>21%</td><td>21%</td><td>21%</td></tr></tbody></table>
+The Company’s effective tax rate for the third quarter and first nine months of 2024 was lower than the statutory federal income tax rate due primarily to a lower effective tax rate on foreign earnings, the impact of the U.S. federal R&D credit, and tax benefits from share-based compensation, partially offset by state income taxes.
+
+The Company’s effective tax rate for the third quarter and first nine months of 2024 was higher compared to the same periods in 2023 due primarily to a higher effective tax rate on foreign earnings and lower tax benefits from share-based compensation, partially offset by lower state income taxes.
+
+Liquidity and Capital Resources
+
+The Company believes its balances of cash, cash equivalents and unrestricted marketable securities, along with cash generated by ongoing operations and continued access to debt markets, will be sufficient to satisfy its cash requirements and capital return program over the next 12 months and beyond.
+
+The Company’s contractual cash requirements have not changed materially since the 2023 Form 10-K, except for manufacturing purchase obligations.
+
+Manufacturing Purchase Obligations
+
+The Company utilizes several outsourcing partners to manufacture subassemblies for the Company’s products and to perform final assembly and testing of finished products. The Company also obtains individual components for its products from a wide variety of individual suppliers. As of June 29, 2024, the Company had manufacturing purchase obligations of $38.4 billion, with $38.3 billion payable within 12 months.
+
+Capital Return Program
+
+In addition to its contractual cash requirements, the Company has authorized share repurchase programs. The programs do not obligate the Company to acquire a minimum amount of shares. As of June 29, 2024, the Company’s quarterly cash dividend was $0.25 per share. The Company intends to increase its dividend on an annual basis, subject to declaration by the Board of Directors.
+
+During the third quarter of 2024, the Company repurchased $26.0 billion of its common stock and paid dividends and dividend equivalents of $3.9 billion.
+
+Recent Accounting Pronouncements
+
+Income Taxes
+
+In December 2023, the Financial Accounting Standards Board (the “FASB”) issued Accounting Standards Update (“ASU”) No. 2023-09, Income Taxes (Topic 740): Improvements to Income Tax Disclosures (“ASU 2023-09”), which will require the Company to disclose specified additional information in its income tax rate reconciliation and provide additional information for reconciling items that meet a quantitative threshold. ASU 2023-09 will also require the Company to disaggregate its income taxes paid disclosure by federal, state and foreign taxes, with further disaggregation required for significant individual jurisdictions. The Company will adopt ASU 2023-09 in its fourth quarter of 2026 using a prospective transition method.
+
+Segment Reporting
+
+In November 2023, the FASB issued ASU No. 2023-07, Segment Reporting (Topic 280): Improvements to Reportable Segment Disclosures (“ASU 2023-07”), which will require the Company to disclose segment expenses that are significant and regularly provided to the Company’s chief operating decision maker (“CODM”). In addition, ASU 2023-07 will require the Company to disclose the title and position of its CODM and how the CODM uses segment profit or loss information in assessing segment performance and deciding how to allocate resources. The Company will adopt ASU 2023-07 in its fourth quarter of 2025 using a retrospective transition method.
+
+Critical Accounting Estimates
+
+The preparation of financial statements and related disclosures in conformity with GAAP and the Company’s discussion and analysis of its financial condition and operating results require the Company’s management to make judgments, assumptions and estimates that affect the amounts reported. Note 1, “Summary of Significant Accounting Policies” of the Notes to Condensed Consolidated Financial Statements in Part I, Item 1 of this Form 10-Q and in the Notes to Consolidated Financial Statements in Part II, Item 8 of the 2023 Form 10-K describe the significant accounting policies and methods used in the preparation of the Company’s condensed consolidated financial statements. There have been no material changes to the Company’s critical accounting estimates since the 2023 Form 10-K.
+
+Item 3. Quantitative and Qualitative Disclosures About Market Risk
+
+There have been no material changes to the Company’s market risk during the first nine months of 2024. For a discussion of the Company’s exposure to market risk, refer to the Company’s market risk disclosures set forth in Part II, Item 7A, “Quantitative and Qualitative Disclosures About Market Risk” of the 2023 Form 10-K.
+
+Item 4. Controls and Procedures
+
+Evaluation of Disclosure Controls and Procedures
+
+Based on an evaluation under the supervision and with the participation of the Company’s management, the Company’s principal executive officer and principal financial officer have concluded that the Company’s disclosure controls and procedures as defined in Rules 13a-15(e) and 15d-15(e) under the Exchange Act were effective as of June 29, 2024 to provide reasonable assurance that information required to be disclosed by the Company in reports that it files or submits under the Exchange Act is (i) recorded, processed, summarized and reported within the time periods specified in the SEC rules and forms and (ii) accumulated and communicated to the Company’s management, including its principal executive officer and principal financial officer, as appropriate to allow timely decisions regarding required disclosure.
+
+Changes in Internal Control over Financial Reporting
+
+There were no changes in the Company’s internal control over financial reporting during the third quarter of 2024, which were identified in connection with management’s evaluation required by paragraph (d) of Rules 13a-15 and 15d-15 under the Exchange Act, that have materially affected, or are reasonably likely to materially affect, the Company’s internal control over financial reporting.
+
+PART II — OTHER INFORMATION
+
+Item 1. Legal Proceedings
+
+Digital Markets Act Investigations
+
+On March 25, 2024, the Commission announced that it had opened two formal noncompliance investigations against the Company under the European Union (“EU”) Digital Markets Act (the “DMA”). The Commission’s investigations concern (1) Article 5(4) of the DMA, which relates to how developers may communicate and promote offers to end users for apps distributed through the App Store as well as how developers may conclude contracts with those end users; and (2) Article 6(3) of the DMA, which relates to default settings, uninstallation of apps, and a web browser choice screen on iOS. On June 24, 2024, the Commission announced its preliminary findings in the Article 5(4) investigation alleging that the Company’s App Store rules are in breach of the DMA and announced that it had opened a third formal investigation against the Company regarding whether the Company’s new contractual requirements for third-party app developers and app marketplaces may violate the DMA. If the Commission makes a final determination that there has been a violation, it can issue a cease and desist order and may impose fines up to 10% of the Company’s annual worldwide net sales. Although any decision by the Commission can be appealed to the General Court of the EU, the effectiveness of the Commission’s order would apply immediately while the appeal is pending, unless a stay of the order is granted. The Company believes that it complies with the DMA and has continued to make changes to its compliance plan in response to feedback and engagement with the Commission.
+
+Department of Justice Lawsuit
+
+On March 21, 2024, the U.S. Department of Justice (the “DOJ”) and a number of state and district attorneys general filed a civil antitrust lawsuit in the U.S. District Court for the District of New Jersey against the Company alleging monopolization or attempted monopolization in the markets for “performance smartphones” and “smartphones” in violation of U.S. antitrust laws. The DOJ is seeking equitable relief to redress the alleged anticompetitive behavior. In addition, various civil litigation matters have been filed in state and federal courts in the U.S. alleging similar violations of U.S. antitrust laws and seeking monetary damages and other nonmonetary relief. The Company believes it has substantial defenses and intends to vigorously defend itself.
+
+Epic Games
+
+Epic Games, Inc. (“Epic”) filed a lawsuit in the U.S. District Court for the Northern District of California (the “California District Court”) against the Company alleging violations of federal and state antitrust laws and California’s unfair competition law based upon the Company’s operation of its App Store. The California District Court found that certain provisions of the Company’s App Store Review Guidelines violate California’s unfair competition law and issued an injunction enjoining the Company from prohibiting developers from including in their apps external links that direct customers to purchasing mechanisms other than Apple in-app purchasing. The injunction applies to apps on the U.S. storefront of the iOS and iPadOS App Store. On January 16, 2024, the Company implemented a plan to comply with the injunction and filed a statement of compliance with the California District Court. A motion by Epic disputing the Company’s compliance plan and seeking to enforce the injunction, which the Company has opposed, is pending before the California District Court. The Company believes it has substantial defenses and intends to vigorously defend itself.
+
+Other Legal Proceedings
+
+The Company is subject to other legal proceedings and claims that have not been fully resolved and that have arisen in the ordinary course of business. The Company settled certain matters during the third quarter of 2024 that did not individually or in the aggregate have a material impact on the Company’s financial condition or operating results. The outcome of litigation is inherently uncertain. If one or more legal matters were resolved against the Company in a reporting period for amounts above management’s expectations, the Company’s financial condition and operating results for that reporting period could be materially adversely affected.
+
+Item 1A. Risk Factors
+
+The Company’s business, reputation, results of operations, financial condition and stock price can be affected by a number of factors, whether currently known or unknown, including those described in Part I, Item 1A of the 2023 Form 10-K and Part II, Item 1A of the Form 10-Q for the quarter ended March 30, 2024 (the “second quarter 2024 Form 10-Q”), in each case under the heading “Risk Factors.” When any one or more of these risks materialize from time to time, the Company’s business, reputation, results of operations, financial condition and stock price can be materially and adversely affected. Except for the risk factor disclosed in Part II, Item 1A of the second quarter 2024 Form 10-Q, which is hereby incorporated by reference into this Part II, Item 1A of this Form 10-Q, there have been no material changes to the Company’s risk factors since the 2023 Form 10-K.
+
+Item 2. Unregistered Sales of Equity Securities and Use of Proceeds
+
+Purchases of Equity Securities by the Issuer and Affiliated Purchasers
+
+Share repurchase activity during the three months ended June 29, 2024 was as follows (in millions, except number of shares, which are reflected in thousands, and per-share amounts):
+This table details the share repurchase activity of an issuer and its affiliates during the three months ending June 29, 2024. It breaks down the activity into three periods: March 31 to May 4, May 5 to June 1, and June 2 to June 29. For each period, the table shows the total number of shares purchased, the average price paid per share, the number of shares purchased as part of publicly announced plans or programs, and the approximate dollar value of shares that may yet be purchased under these plans or programs. The table also provides a total for all three periods, summarizing the total number of shares purchased and the total approximate dollar value of shares that may yet be purchased. All figures are expressed in millions, except for the number of shares which are in thousands. 
+
+<table><thead><tr><th>Periods</th><th>Total Number of Shares Purchased</th><th>Average 
+ Price Paid Per Share</th><th>Total Number of Shares Purchased as Part of Publicly Announced Plans or Programs</th><th>Approximate 
+ Dollar Value of Shares That Ma: Yet Be Purchased Under the Plans or Programs ()</th></tr></thead><tbody><tr><td colspan="5">March 31, 2024 to May 4, 2024:</td></tr><tr><td>Open market and privately negotiated purchases</td><td>45,690</td><td>$ 169.74</td><td>45,690</td><td></td></tr><tr><td colspan="5">May 5, 2024 to June 1, 2024:</td></tr><tr><td>Open market and privately negotiated purchases</td><td>51,729</td><td>$ 188.38</td><td>51,729</td><td></td></tr><tr><td colspan="5">June 2, 2024 to June 29, 2024:</td></tr><tr><td>Open market and privately negotiated purchases</td><td>41,354</td><td>$ 20554</td><td>41,354</td><td></td></tr><tr><td>Total</td><td>138,773</td><td></td><td></td><td>$ 114,074</td></tr></tbody></table>
+(1) On May 4, 2023, the Board of Directors authorized the purchase of up to $90 billion of the Company’s common stock under a share repurchase program. As of June 29, 2024, remaining availability under the May 2023 program was $4.1 billion. On May 2, 2024, the Board of Directors authorized an additional program to repurchase up to $110 billion of the Company’s common stock. The programs do not obligate the Company to acquire a minimum amount of shares. Under the programs, shares may be repurchased in privately negotiated or open market transactions, including under plans complying with Rule 10b5-1 under the Exchange Act.
+
+Item 3. Defaults Upon Senior Securities
+
+None.
+
+Item 4. Mine Safety Disclosures
+
+Not applicable.
+
+Item 5. Other Information
+
+Insider Trading Arrangements
+
+On May 24, 2024, Tim Cook, the Company’s Chief Executive Officer, entered into a trading plan intended to satisfy the affirmative defense conditions of Rule 10b5-1(c) under the Exchange Act. The plan provides for the sale, subject to certain price limits, of shares vesting during the duration of the plan pursuant to certain equity awards granted to Mr. Cook, excluding shares withheld by the Company to satisfy income tax withholding and remittance obligations. Mr. Cook’s plan will expire on May 24, 2026, subject to early termination in accordance with the terms of the plan.
+This table lists the exhibits filed with Apple Inc.'s Form 10-Q for the third quarter of 2024. Each row represents a specific exhibit, including its number, description, and information about whether it is incorporated by reference from a previous filing. The table lacks the specific details for "Incorporated by Reference," indicating that the exhibits are not being incorporated from previous filings. 
+
+<table><thead><tr><th rowspan="2">Exhibit Number _</th><th rowspan="2">Exhibit Description</th><th colspan="3">Incorporated by Reterence</th></tr><tr><th>Form —.—</th><th>Exhibit</th><th>Period End Filing Date/ Date 0</th></tr></thead><tbody><tr><td>31.1*</td><td>e Rule 13a-14(a) / 15d-14(a) Certification of Chief Executive Officer.</td><td></td><td></td><td></td></tr><tr><td>31.2*</td><td>Rule 13a-14(a) / 15d-14(a) Certification of Chief Financial Officer.</td><td></td><td></td><td></td></tr><tr><td>32.1*</td><td>Section 1350 Certifications of Chief Executive Officer and Chief Financial Officer.</td><td></td><td></td><td></td></tr><tr><td>101*</td><td>Inline XBRL Document Set for the condensed consolidated financial statements and accompanying notes in Part |, ltem 1, “Financial Statements” of this Quarterly Report on Form 10-Q.</td><td></td><td></td><td></td></tr><tr><td>104*</td><td>Inline XBRL for the cover page of this Quarterly Report on Form 10-Q, included in the Exhibit 101 Inline XBRL Document Set.</td><td></td><td></td><td></td></tr></tbody></table>
+Filed herewith.
+
+** Furnished herewith.
+
+SIGNATURE
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized.
+
+Date: August 1, 2024
+
+Apple Inc.
+
+By:
+
+/s/ Luca Maestri
+
+Luca Maestri
+
+Senior Vice President, Chief Financial Officer
+
+CERTIFICATION
+
+I, Timothy D. Cook, certify that:
+
+I have reviewed this quarterly report on Form 10-Q of Apple Inc.;
+
+2. Based on my knowledge, this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to make the statements made, in light of the circumstances under which such statements were made, not misleading with respect to the period covered by this report;
+
+3. Based on my knowledge, the financial statements, and other financial information included in this report, fairly present in all material respects the financial condition, results of operations and cash flows of the Registrant as of, and for, the periods presented in this report;
+
+4. The Registrant’s other certifying officer(s) and I are responsible for establishing and maintaining disclosure controls and procedures (as defined in Exchange Act Rules 13a-15(e) and 15d-15(e)) and internal control over financial reporting (as defined in Exchange Act Rules 13a-15(f) and 15d-15(f)) for the Registrant and have:
+
+(a) Designed such disclosure controls and procedures, or caused such disclosure controls and procedures to be designed under our supervision, to ensure that material information relating to the Registrant, including its consolidated subsidiaries, is made known to us by others within those entities, particularly during the period in which this report is being prepared;
+
+(b) Designed such internal control over financial reporting, or caused such internal control over financial reporting to be designed under our supervision, to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles;
+
+(c) Evaluated the effectiveness of the Registrant’s disclosure controls and procedures and presented in this report our conclusions about the effectiveness of the disclosure controls and procedures, as of the end of the period covered by this report based on such evaluation; and
+
+(d) Disclosed in this report any change in the Registrant’s internal control over financial reporting that occurred during the Registrant’s most recent fiscal quarter (the Registrant’s fourth fiscal quarter in the case of an annual report) that has materially affected, or is reasonably likely to materially affect, the Registrant’s internal control over financial reporting; and
+
+5. The Registrant’s other certifying officer(s) and I have disclosed, based on our most recent evaluation of internal control over financial reporting, to the Registrant’s auditors and the audit committee of the Registrant’s board of directors (or persons performing the equivalent functions):
+
+(a) All significant deficiencies and material weaknesses in the design or operation of internal control over financial reporting which are reasonably likely to adversely affect the Registrant’s ability to record, process, summarize and report financial information; and
+
+(b) Any fraud, whether or not material, that involves management or other employees who have a significant role in the Registrant’s internal control over financial reporting.
+
+Date: August 1, 2024
+
+By:
+
+/s/ Timothy D. Cook
+
+Timothy D. Cook
+
+Chief Executive Officer
+
+CERTIFICATION
+
+I, Luca Maestri, certify that:
+
+I have reviewed this quarterly report on Form 10-Q of Apple Inc.;
+
+2. Based on my knowledge, this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to make the statements made, in light of the circumstances under which such statements were made, not misleading with respect to the period covered by this report;
+
+3. Based on my knowledge, the financial statements, and other financial information included in this report, fairly present in all material respects the financial condition, results of operations and cash flows of the Registrant as of, and for, the periods presented in this report;
+
+4. The Registrant’s other certifying officer(s) and I are responsible for establishing and maintaining disclosure controls and procedures (as defined in Exchange Act Rules 13a-15(e) and 15d-15(e)) and internal control over financial reporting (as defined in Exchange Act Rules 13a-15(f) and 15d-15(f)) for the Registrant and have:
+
+(a) Designed such disclosure controls and procedures, or caused such disclosure controls and procedures to be designed under our supervision, to ensure that material information relating to the Registrant, including its consolidated subsidiaries, is made known to us by others within those entities, particularly during the period in which this report is being prepared;
+
+(b) Designed such internal control over financial reporting, or caused such internal control over financial reporting to be designed under our supervision, to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles;
+
+(c) Evaluated the effectiveness of the Registrant’s disclosure controls and procedures and presented in this report our conclusions about the effectiveness of the disclosure controls and procedures, as of the end of the period covered by this report based on such evaluation; and
+
+(d) Disclosed in this report any change in the Registrant’s internal control over financial reporting that occurred during the Registrant’s most recent fiscal quarter (the Registrant’s fourth fiscal quarter in the case of an annual report) that has materially affected, or is reasonably likely to materially affect, the Registrant’s internal control over financial reporting; and
+
+5. The Registrant’s other certifying officer(s) and I have disclosed, based on our most recent evaluation of internal control over financial reporting, to the Registrant’s auditors and the audit committee of the Registrant’s board of directors (or persons performing the equivalent functions):
+
+(a) All significant deficiencies and material weaknesses in the design or operation of internal control over financial reporting which are reasonably likely to adversely affect the Registrant’s ability to record, process, summarize and report financial information; and
+
+(b) Any fraud, whether or not material, that involves management or other employees who have a significant role in the Registrant’s internal control over financial reporting.
+
+Date: August 1, 2024
+
+By:
+
+/s/ Luca Maestri
+
+Luca Maestri
+
+Senior Vice President, Chief Financial Officer
+
+CERTIFICATIONS OF CHIEF EXECUTIVE OFFICER AND CHIEF FINANCIAL OFFICER PURSUANT TO 18 U.S.C. SECTION 1350, AS ADOPTED PURSUANT TO SECTION 906 OF THE SARBANES-OXLEY ACT OF 2002
+
+I, Timothy D. Cook, certify, as of the date hereof, pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002, that the Quarterly Report of Apple Inc. on Form 10-Q for the period ended June 29, 2024 fully complies with the requirements of Section 13(a) or 15(d) of the Securities Exchange Act of 1934 and that information contained in such Form 10-Q fairly presents in all material respects the financial condition and results of operations of Apple Inc. at the dates and for the periods indicated.
+
+Date: August 1, 2024
+
+By:
+
+/s/ Timothy D. Cook
+
+Timothy D. Cook
+
+Chief Executive Officer
+
+I, Luca Maestri, certify, as of the date hereof, pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002, that the Quarterly Report of Apple Inc. on Form 10-Q for the period ended June 29, 2024 fully complies with the requirements of Section 13(a) or 15(d) of the Securities Exchange Act of 1934 and that information contained in such Form 10-Q fairly presents in all material respects the financial condition and results of operations of Apple Inc. at the dates and for the periods indicated.
+
+Date: August 1, 2024
+
+By:
+
+/s/ Luca Maestri
+
+Luca Maestri
+
+Senior Vice President, Chief Financial Officer
+
+A signed original of this written statement required by Section 906 has been provided to Apple Inc. and will be retained by Apple Inc. and furnished to the Securities and Exchange Commission or its staff upon request.

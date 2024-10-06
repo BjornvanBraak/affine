@@ -6,3 +6,5 @@ Folder structure (updated on 2024-06-10)
 * data_preprocessing - files used for preprocessing the raw data.
 * graphrag_test_case - experiment done with graphrag
 * vector_stores - multiple vector stores using different embedding techniques
+
+The main code implementation can be found in RAG.ipynb
